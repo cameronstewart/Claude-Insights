@@ -1,0 +1,203 @@
+{
+  "conversations": [
+    {
+      "uuid": "conv-1",
+      "name": "Building a React Dashboard",
+      "summary": "Discussion about creating a data visualization dashboard",
+      "created_at": "2024-11-15T09:30:00Z",
+      "updated_at": "2024-11-15T11:45:00Z",
+      "chat_messages": [
+        {
+          "uuid": "msg-1",
+          "text": "I need help building a React dashboard with charts",
+          "sender": "human",
+          "created_at": "2024-11-15T09:30:00Z",
+          "updated_at": "2024-11-15T09:30:00Z"
+        },
+        {
+          "uuid": "msg-2",
+          "text": "I'd be happy to help you build a React dashboard! Let's start by discussing what kind of data you want to visualize...",
+          "sender": "assistant",
+          "created_at": "2024-11-15T09:31:00Z",
+          "updated_at": "2024-11-15T09:31:00Z"
+        },
+        {
+          "uuid": "msg-3",
+          "text": "I want to show sales data over time",
+          "sender": "human",
+          "created_at": "2024-11-15T09:35:00Z",
+          "updated_at": "2024-11-15T09:35:00Z"
+        },
+        {
+          "uuid": "msg-4",
+          "text": "Great! For sales data over time, I recommend using Recharts...",
+          "sender": "assistant",
+          "created_at": "2024-11-15T09:36:00Z",
+          "updated_at": "2024-11-15T09:36:00Z"
+        }
+      ]
+    },
+    {
+      "uuid": "conv-2",
+      "name": "Python Script Help",
+      "summary": "Help with Python data processing",
+      "created_at": "2024-11-20T14:20:00Z",
+      "updated_at": "2024-11-20T15:30:00Z",
+      "chat_messages": [
+        {
+          "uuid": "msg-5",
+          "text": "How do I process CSV files in Python?",
+          "sender": "human",
+          "created_at": "2024-11-20T14:20:00Z",
+          "updated_at": "2024-11-20T14:20:00Z"
+        },
+        {
+          "uuid": "msg-6",
+          "text": "You can use pandas for CSV processing. Here's an example...",
+          "sender": "assistant",
+          "created_at": "2024-11-20T14:21:00Z",
+          "updated_at": "2024-11-20T14:21:00Z"
+        },
+        {
+          "uuid": "msg-7",
+          "text": "Thanks! Can you show me how to filter rows?",
+          "sender": "human",
+          "created_at": "2024-11-20T14:25:00Z",
+          "updated_at": "2024-11-20T14:25:00Z"
+        },
+        {
+          "uuid": "msg-8",
+          "text": "Sure! Here's how to filter rows in pandas...",
+          "sender": "assistant",
+          "created_at": "2024-11-20T14:26:00Z",
+          "updated_at": "2024-11-20T14:26:00Z"
+        },
+        {
+          "uuid": "msg-9",
+          "text": "Perfect, that works!",
+          "sender": "human",
+          "created_at": "2024-11-20T14:30:00Z",
+          "updated_at": "2024-11-20T14:30:00Z"
+        },
+        {
+          "uuid": "msg-10",
+          "text": "Glad to help! Let me know if you need anything else.",
+          "sender": "assistant",
+          "created_at": "2024-11-20T14:31:00Z",
+          "updated_at": "2024-11-20T14:31:00Z"
+        }
+      ]
+    },
+    {
+      "uuid": "conv-3",
+      "name": "API Design Questions",
+      "summary": "REST API best practices",
+      "created_at": "2024-12-01T10:00:00Z",
+      "updated_at": "2024-12-01T10:15:00Z",
+      "chat_messages": [
+        {
+          "uuid": "msg-11",
+          "text": "What are REST API best practices?",
+          "sender": "human",
+          "created_at": "2024-12-01T10:00:00Z",
+          "updated_at": "2024-12-01T10:00:00Z"
+        },
+        {
+          "uuid": "msg-12",
+          "text": "Here are the key REST API best practices...",
+          "sender": "assistant",
+          "created_at": "2024-12-01T10:01:00Z",
+          "updated_at": "2024-12-01T10:01:00Z"
+        }
+      ]
+    },
+    {
+      "uuid": "conv-4",
+      "name": "Database Schema Design",
+      "summary": "Designing a database for an e-commerce app",
+      "created_at": "2024-12-10T16:45:00Z",
+      "updated_at": "2024-12-10T18:20:00Z",
+      "chat_messages": [
+        {
+          "uuid": "msg-13",
+          "text": "I need to design a database schema for an e-commerce site",
+          "sender": "human",
+          "created_at": "2024-12-10T16:45:00Z",
+          "updated_at": "2024-12-10T16:45:00Z"
+        },
+        {
+          "uuid": "msg-14",
+          "text": "Let's design a schema with users, products, orders, and order_items tables...",
+          "sender": "assistant",
+          "created_at": "2024-12-10T16:46:00Z",
+          "updated_at": "2024-12-10T16:46:00Z"
+        },
+        {
+          "uuid": "msg-15",
+          "text": "Should I add indexes?",
+          "sender": "human",
+          "created_at": "2024-12-10T16:50:00Z",
+          "updated_at": "2024-12-10T16:50:00Z"
+        },
+        {
+          "uuid": "msg-16",
+          "text": "Yes, here are the recommended indexes...",
+          "sender": "assistant",
+          "created_at": "2024-12-10T16:51:00Z",
+          "updated_at": "2024-12-10T16:51:00Z"
+        },
+        {
+          "uuid": "msg-17",
+          "text": "What about foreign keys?",
+          "sender": "human",
+          "created_at": "2024-12-10T16:55:00Z",
+          "updated_at": "2024-12-10T16:55:00Z"
+        },
+        {
+          "uuid": "msg-18",
+          "text": "Here's how to set up foreign keys properly...",
+          "sender": "assistant",
+          "created_at": "2024-12-10T16:56:00Z",
+          "updated_at": "2024-12-10T16:56:00Z"
+        },
+        {
+          "uuid": "msg-19",
+          "text": "Should I use soft deletes?",
+          "sender": "human",
+          "created_at": "2024-12-10T17:00:00Z",
+          "updated_at": "2024-12-10T17:00:00Z"
+        },
+        {
+          "uuid": "msg-20",
+          "text": "Soft deletes are a good idea for e-commerce...",
+          "sender": "assistant",
+          "created_at": "2024-12-10T17:01:00Z",
+          "updated_at": "2024-12-10T17:01:00Z"
+        }
+      ]
+    },
+    {
+      "uuid": "conv-5",
+      "name": "Quick Git Question",
+      "summary": "Git merge vs rebase",
+      "created_at": "2024-12-15T11:30:00Z",
+      "updated_at": "2024-12-15T11:35:00Z",
+      "chat_messages": [
+        {
+          "uuid": "msg-21",
+          "text": "When should I use git merge vs rebase?",
+          "sender": "human",
+          "created_at": "2024-12-15T11:30:00Z",
+          "updated_at": "2024-12-15T11:30:00Z"
+        },
+        {
+          "uuid": "msg-22",
+          "text": "Here's the difference between merge and rebase...",
+          "sender": "assistant",
+          "created_at": "2024-12-15T11:31:00Z",
+          "updated_at": "2024-12-15T11:31:00Z"
+        }
+      ]
+    }
+  ]
+}
