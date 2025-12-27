@@ -20,6 +20,49 @@ export interface ClaudeDataExport {
   [key: string]: any;
 }
 
+export interface PromptingStyle {
+  avgPromptLength: number;
+  avgWordsPerPrompt: number;
+  questionCount: number;
+  questionPercentage: number;
+  followUpCount: number;
+  codeBlockCount: number;
+  politenessScore: number;
+  styleBreakdown: {
+    questions: number;
+    commands: number;
+    descriptions: number;
+  };
+}
+
+export interface BestPractices {
+  overallScore: number;
+  strengths: string[];
+  improvements: string[];
+  scores: {
+    clarity: number;
+    specificity: number;
+    context: number;
+    formatting: number;
+  };
+}
+
+export interface Theme {
+  name: string;
+  count: number;
+  percentage: number;
+}
+
+export interface NextSteps {
+  incompleteConversations: Array<{
+    name: string;
+    lastMessage: string;
+    suggestions: string[];
+  }>;
+  followUpIdeas: string[];
+  commonPatterns: string[];
+}
+
 export interface InsightsData {
   totalConversations: number;
   totalMessages: number;
@@ -51,4 +94,8 @@ export interface InsightsData {
     messageCount: number;
     created: string;
   }>;
+  promptingStyle: PromptingStyle;
+  bestPractices: BestPractices;
+  themes: Theme[];
+  nextSteps: NextSteps;
 }

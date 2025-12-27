@@ -5,16 +5,42 @@ A privacy-first web application that analyzes your Claude conversation data and 
 ## Features
 
 - **Privacy-First**: All data processing happens locally in your browser. Nothing is uploaded to any server.
-- **Comprehensive Analytics**:
-  - Total conversations and messages
-  - Usage patterns over time
-  - Activity by hour of day
-  - Conversation length distribution
-  - Top conversations by message count
-  - And more!
-- **Beautiful Visualizations**: Interactive charts and graphs powered by Recharts
-- **Export Reports**: Download your insights as HTML reports
-- **Dark Mode Support**: Automatically adapts to your system theme
+
+### 📊 Usage Analytics
+- Total conversations and messages
+- Usage patterns over time
+- Activity by hour of day
+- Conversation length distribution
+- Top conversations by message count
+
+### 📝 Prompting Style Analysis
+- Average prompt length and word count
+- Question vs command vs description breakdown
+- Politeness score
+- Code block usage tracking
+- Follow-up pattern detection
+
+### ⭐ Best Practices Evaluation
+- Overall prompting score (0-100)
+- Detailed scores for clarity, specificity, context, and formatting
+- Personalized strengths and improvement suggestions
+- Learn how to get better responses from Claude
+
+### 🎯 Theme Extraction
+- Automatic topic detection (Web Dev, Data & AI, DevOps, etc.)
+- Identify your main areas of interest
+- Track topic distribution across conversations
+
+### 💡 Ideas & Next Steps
+- Find incomplete conversations to continue
+- Personalized follow-up ideas based on your interests
+- Pattern detection in your usage
+- Smart suggestions for maximizing value
+
+### 🎨 Visualizations & Export
+- Beautiful, interactive charts powered by Recharts
+- Export insights as HTML reports
+- Dark mode support
 
 ## How to Use
 

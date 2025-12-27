@@ -98,6 +98,176 @@ export default function InsightsDashboard({ insights, onReset, onExport }: Insig
         </div>
       </div>
 
+      {/* Prompting Style Analysis */}
+      <div className="bg-white dark:bg-gray-800 p-6 rounded-lg border border-gray-200 dark:border-gray-700">
+        <h2 className="text-2xl font-semibold mb-4">📝 Your Prompting Style</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+          <div>
+            <p className="text-sm text-gray-600 dark:text-gray-400">Avg Prompt Length</p>
+            <p className="text-2xl font-bold">{insights.promptingStyle.avgPromptLength} chars</p>
+          </div>
+          <div>
+            <p className="text-sm text-gray-600 dark:text-gray-400">Avg Words</p>
+            <p className="text-2xl font-bold">{insights.promptingStyle.avgWordsPerPrompt}</p>
+          </div>
+          <div>
+            <p className="text-sm text-gray-600 dark:text-gray-400">Questions Asked</p>
+            <p className="text-2xl font-bold">{insights.promptingStyle.questionPercentage}%</p>
+          </div>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="p-4 bg-blue-50 dark:bg-blue-950 rounded-lg">
+            <p className="text-sm font-semibold text-blue-900 dark:text-blue-100">Questions</p>
+            <p className="text-xl font-bold text-blue-600 dark:text-blue-400">{insights.promptingStyle.styleBreakdown.questions}</p>
+          </div>
+          <div className="p-4 bg-purple-50 dark:bg-purple-950 rounded-lg">
+            <p className="text-sm font-semibold text-purple-900 dark:text-purple-100">Commands</p>
+            <p className="text-xl font-bold text-purple-600 dark:text-purple-400">{insights.promptingStyle.styleBreakdown.commands}</p>
+          </div>
+          <div className="p-4 bg-pink-50 dark:bg-pink-950 rounded-lg">
+            <p className="text-sm font-semibold text-pink-900 dark:text-pink-100">Descriptions</p>
+            <p className="text-xl font-bold text-pink-600 dark:text-pink-400">{insights.promptingStyle.styleBreakdown.descriptions}</p>
+          </div>
+        </div>
+        <div className="mt-4 grid grid-cols-2 gap-4">
+          <div>
+            <p className="text-sm text-gray-600 dark:text-gray-400">Politeness Score</p>
+            <div className="flex items-center gap-2">
+              <div className="flex-1 h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
+                <div
+                  className="h-full bg-green-500"
+                  style={{ width: `${insights.promptingStyle.politenessScore}%` }}
+                />
+              </div>
+              <span className="text-sm font-bold">{insights.promptingStyle.politenessScore}%</span>
+            </div>
+          </div>
+          <div>
+            <p className="text-sm text-gray-600 dark:text-gray-400">Code Blocks Used</p>
+            <p className="text-xl font-bold">{insights.promptingStyle.codeBlockCount}</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Best Practices Evaluation */}
+      <div className="bg-white dark:bg-gray-800 p-6 rounded-lg border border-gray-200 dark:border-gray-700">
+        <h2 className="text-2xl font-semibold mb-4">⭐ Best Practices Score</h2>
+        <div className="text-center mb-6">
+          <div className="inline-block">
+            <div className="text-6xl font-bold text-blue-600 dark:text-blue-400">
+              {insights.bestPractices.overallScore}
+            </div>
+            <p className="text-sm text-gray-600 dark:text-gray-400">Overall Score</p>
+          </div>
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+          <ScoreCard label="Clarity" score={insights.bestPractices.scores.clarity} />
+          <ScoreCard label="Specificity" score={insights.bestPractices.scores.specificity} />
+          <ScoreCard label="Context" score={insights.bestPractices.scores.context} />
+          <ScoreCard label="Formatting" score={insights.bestPractices.scores.formatting} />
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div>
+            <h3 className="font-semibold text-green-600 dark:text-green-400 mb-2">✓ Strengths</h3>
+            <ul className="space-y-1">
+              {insights.bestPractices.strengths.map((strength, i) => (
+                <li key={i} className="text-sm text-gray-700 dark:text-gray-300">• {strength}</li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h3 className="font-semibold text-orange-600 dark:text-orange-400 mb-2">→ Areas to Improve</h3>
+            <ul className="space-y-1">
+              {insights.bestPractices.improvements.map((improvement, i) => (
+                <li key={i} className="text-sm text-gray-700 dark:text-gray-300">• {improvement}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      {/* Theme Extraction */}
+      <div className="bg-white dark:bg-gray-800 p-6 rounded-lg border border-gray-200 dark:border-gray-700">
+        <h2 className="text-2xl font-semibold mb-4">🎯 Your Main Topics</h2>
+        <div className="space-y-3">
+          {insights.themes.slice(0, 8).map((theme, i) => (
+            <div key={i}>
+              <div className="flex justify-between items-center mb-1">
+                <span className="font-medium">{theme.name}</span>
+                <span className="text-sm text-gray-600 dark:text-gray-400">
+                  {theme.count} mentions ({theme.percentage}%)
+                </span>
+              </div>
+              <div className="h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
+                <div
+                  className="h-full bg-gradient-to-r from-blue-500 to-purple-500"
+                  style={{ width: `${theme.percentage}%` }}
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Next Steps & Ideas */}
+      <div className="bg-white dark:bg-gray-800 p-6 rounded-lg border border-gray-200 dark:border-gray-700">
+        <h2 className="text-2xl font-semibold mb-4">💡 Ideas & Next Steps</h2>
+
+        {insights.nextSteps.incompleteConversations.length > 0 && (
+          <div className="mb-6">
+            <h3 className="font-semibold text-orange-600 dark:text-orange-400 mb-3">
+              Conversations to Continue
+            </h3>
+            <div className="space-y-3">
+              {insights.nextSteps.incompleteConversations.map((conv, i) => (
+                <div key={i} className="p-3 bg-orange-50 dark:bg-orange-950 rounded-lg">
+                  <p className="font-medium mb-1">{conv.name}</p>
+                  <p className="text-sm text-gray-600 dark:text-gray-400 mb-2 italic">
+                    &ldquo;{conv.lastMessage}&rdquo;
+                  </p>
+                  <div className="text-xs">
+                    <span className="font-semibold">Suggestions: </span>
+                    {conv.suggestions.join(' • ')}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {insights.nextSteps.followUpIdeas.length > 0 && (
+          <div className="mb-6">
+            <h3 className="font-semibold text-blue-600 dark:text-blue-400 mb-3">
+              Follow-up Ideas
+            </h3>
+            <ul className="space-y-2">
+              {insights.nextSteps.followUpIdeas.map((idea, i) => (
+                <li key={i} className="flex items-start gap-2">
+                  <span className="text-blue-500 mt-1">→</span>
+                  <span className="text-sm">{idea}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {insights.nextSteps.commonPatterns.length > 0 && (
+          <div>
+            <h3 className="font-semibold text-purple-600 dark:text-purple-400 mb-3">
+              Patterns Observed
+            </h3>
+            <ul className="space-y-2">
+              {insights.nextSteps.commonPatterns.map((pattern, i) => (
+                <li key={i} className="flex items-start gap-2">
+                  <span className="text-purple-500 mt-1">◆</span>
+                  <span className="text-sm">{pattern}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+
       {/* Charts */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* Usage Over Time */}
@@ -209,6 +379,48 @@ function ChartCard({ title, children }: { title: string; children: React.ReactNo
     <div className="bg-white dark:bg-gray-800 p-6 rounded-lg border border-gray-200 dark:border-gray-700">
       <h3 className="text-lg font-semibold mb-4">{title}</h3>
       {children}
+    </div>
+  );
+}
+
+function ScoreCard({ label, score }: { label: string; score: number }) {
+  const getColor = (score: number) => {
+    if (score >= 70) return 'bg-green-500';
+    if (score >= 50) return 'bg-yellow-500';
+    return 'bg-orange-500';
+  };
+
+  return (
+    <div className="text-center">
+      <div className="relative w-16 h-16 mx-auto mb-2">
+        <svg className="transform -rotate-90 w-16 h-16">
+          <circle
+            cx="32"
+            cy="32"
+            r="28"
+            stroke="currentColor"
+            strokeWidth="8"
+            fill="none"
+            className="text-gray-200 dark:text-gray-700"
+          />
+          <circle
+            cx="32"
+            cy="32"
+            r="28"
+            stroke="currentColor"
+            strokeWidth="8"
+            fill="none"
+            strokeDasharray={`${2 * Math.PI * 28}`}
+            strokeDashoffset={`${2 * Math.PI * 28 * (1 - score / 100)}`}
+            className={getColor(score)}
+            strokeLinecap="round"
+          />
+        </svg>
+        <div className="absolute inset-0 flex items-center justify-center">
+          <span className="text-sm font-bold">{score}</span>
+        </div>
+      </div>
+      <p className="text-xs text-gray-600 dark:text-gray-400">{label}</p>
     </div>
   );
 }
