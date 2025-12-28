@@ -1,0 +1,801 @@
+{
+  "extraction_metadata": {
+    "source_file": "memories.json",
+    "extraction_date": "2025-12-28",
+    "total_projects": 13,
+    "account_uuid": "aadb8e67-3422-4202-9935-877e2382c9f0"
+  },
+  "projects": [
+    {
+      "project_id": "0198db1b-bad0-74bf-ba76-6f57bd9ab92f",
+      "title": "Career Development - Executive Leadership Roles",
+      "category": "Career",
+      "status": "Active - Job Hunting",
+      "priority": "High",
+      "description": "Seeking permanent executive leadership roles in Australian government or education sectors",
+      "target_roles": [
+        "Chief Data Officer",
+        "Executive Director",
+        "Senior Leadership Roles"
+      ],
+      "recent_applications": [
+        "Executive Director Knowledge and Information Technology at WA Department of Justice",
+        "Chief Data Officer roles",
+        "Senior data governance positions across WA Government"
+      ],
+      "key_stakeholders": [
+        "Hays (recruitment)",
+        "StepChange Consultants",
+        "Peoplebank",
+        "Technical Resources",
+        "Woodside Energy (via StepChange)"
+      ],
+      "competitive_advantages": [
+        "NV1 security clearance",
+        "Whole-of-government perspective (NSW framework: 170,000+ employees, 80+ departments)",
+        "25+ years experience",
+        "40+ organizations served",
+        "Current Microsoft certifications"
+      ],
+      "credentials": {
+        "education": [
+          "Bachelor Business Marketing (Distinction) - RMIT 1996-1999",
+          "Bachelor Business Information and Knowledge Management (Distinction) - RMIT 2010-2012",
+          "Master of Information Studies (in progress) - Charles Sturt University"
+        ],
+        "certifications": [
+          "Microsoft Data Analyst",
+          "PowerBI Associate",
+          "Knowledge Engineering (PoolParty)",
+          "ITIL Foundations",
+          "Lean Six Sigma"
+        ],
+        "clearance": "NV1 Security Clearance"
+      },
+      "location": "Alkimos, Perth, WA",
+      "challenges": [
+        "Distinguishing strategic ownership vs project delivery",
+        "Positioning consulting as strategic breadth vs people leadership gap",
+        "Avoiding overreach in application claims"
+      ],
+      "tools": [
+        "Systematic opportunity analysis frameworks",
+        "STAR-method response preparation",
+        "Gap analysis methodologies"
+      ],
+      "financial_impact": "Transition from consulting ($variable) to permanent executive salary (stability)"
+    },
+    {
+      "project_id": "01999472-e282-710d-b065-e4df269c67e8",
+      "title": "Academic Studies - Master of Information Studies",
+      "category": "Academic",
+      "status": "Active - Session 3 2025",
+      "priority": "Critical",
+      "description": "MIS program at Charles Sturt University focusing on data products, metadata systems, and commercial applications",
+      "current_subjects": [
+        {
+          "code": "INF561",
+          "name": "Foundations for Information Studies",
+          "credits": 8,
+          "assessments": [
+            {
+              "number": 2,
+              "title": "Sector report on Department of Justice Western Australia",
+              "status": "in_progress"
+            },
+            {
+              "number": 3,
+              "title": "Essay on synthetic information management and AI copyright training",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "code": "INF562",
+          "name": "Information Sources and Services",
+          "credits": 8
+        },
+        {
+          "code": "INF567",
+          "name": "Research in Practice",
+          "credits": 8
+        }
+      ],
+      "total_credit_points": 24,
+      "key_deadlines": [
+        "2025-12-22: INF561/562/567 cluster",
+        "2025-12-23: INF561/562/567 cluster",
+        "2026-01-26: Additional assessments",
+        "2026-01-27: Additional assessments",
+        "2026-01-28: Additional assessments"
+      ],
+      "research_interests": [
+        "Business-as-code concepts",
+        "Semantic business models",
+        "Synthetic information management",
+        "AI-generated content cataloging",
+        "Academic workflow engineering (potential thesis topic)"
+      ],
+      "approach": "Commercial/business-oriented rather than traditional GLAM (galleries, libraries, archives, museums)",
+      "thesis_pathway": "Applied Research specialization",
+      "tools": [
+        "Zotero with Better BibTeX",
+        "Git-tracked academic repositories",
+        "Custom Claude skills for APA referencing",
+        "Mermaid diagrams",
+        "JSON schemas",
+        "Primo library system (CSU)",
+        "ProQuest databases",
+        "Brightspace LMS"
+      ],
+      "academic_databases": [
+        "LISTA (information science)",
+        "EBSCO",
+        "ProQuest",
+        "Semantic Scholar",
+        "OpenAlex",
+        "arXiv"
+      ],
+      "financial_impact": "Tuition costs during cash flow crisis",
+      "time_pressure": "Multiple assessments during SOPE dispute resolution period"
+    },
+    {
+      "project_id": "0199d1d0-61ab-7592-b3cb-fe08686027ee",
+      "title": "Multi-Agent Systems for Government/Enterprise",
+      "category": "Technical Development",
+      "status": "Active Development",
+      "priority": "Medium",
+      "description": "Advanced multi-agent system for KIT (Knowledge, Information and Technology) leadership team",
+      "objective": "Transform Claude Code sub-agents into fully functional agentic systems with autonomous execution",
+      "organizational_context": [
+        "Executive-level roles (CTO, CISO, Director General)",
+        "Specialized Assistant Director positions",
+        "Government/large enterprise environment"
+      ],
+      "system_architecture": {
+        "orchestrator": "Executive Director agent",
+        "specialized_agents": 9,
+        "total_agents": 10
+      },
+      "agent_roles": [
+        "Information Release",
+        "Contracts",
+        "Litigation"
+      ],
+      "implementation_approaches": [
+        "Claude Code CLI",
+        "Python CLI",
+        "Streamlit web interface"
+      ],
+      "features": [
+        "Task queue systems",
+        "Asynchronous work delegation",
+        "Progress tracking",
+        "Result review",
+        "Smart orchestration",
+        "Cluster consultation patterns"
+      ],
+      "agentic_ui_patterns": [
+        "Task queues",
+        "Canvas workspaces",
+        "Monitoring dashboards",
+        "Approval workflows",
+        "Team management interfaces",
+        "Autonomous loops",
+        "Intent-based delegation"
+      ],
+      "tech_stack": [
+        "Claude Code",
+        "Python",
+        "Streamlit",
+        "YAML configurations"
+      ],
+      "financial_impact": "Potential productization for consulting services"
+    },
+    {
+      "project_id": "01995074-b153-71b5-b189-bb500335dab6",
+      "title": "Forge Outdoors Debt Recovery",
+      "category": "Legal - Debt Collection",
+      "status": "Active Collection",
+      "priority": "High",
+      "total_debt": "$15,090 - $16,200",
+      "description": "PowerBI development invoices dispute - Time and Materials vs Fixed Price contract interpretation",
+      "parties": {
+        "creditor": "The Waffle Co (Cameron Stewart)",
+        "debtor": "Forge Outdoors Pty Ltd",
+        "collection_agent": "Slater Byrne Recoveries (Shaun Lunn)",
+        "opposing_counsel": "Robin King from Cowell Clarke"
+      },
+      "legal_issue": "Contract interpretation - Time and Materials (Cameron) vs Fixed-price (Forge)",
+      "settlement_offers_received": [
+        "$5,940 (rejected)",
+        "$8,500 (rejected)",
+        "$10,877.63 (rejected)"
+      ],
+      "settlement_trend": "Progressive increase indicates weakening opponent position",
+      "strategy": "Pursuing full payment recovery",
+      "workplace_issues": [
+        "Documented safety concerns",
+        "Abusive behavior from Adrian Trimmer and Nina Wilson",
+        "Unreasonable work demands",
+        "Controlling communications",
+        "Hostile work environment"
+      ],
+      "current_focus": "Straightforward debt recovery (not expanding to abuse allegations)",
+      "evidence": [
+        "Call logs",
+        "Explicit contract terms",
+        "Client admissions",
+        "Evidence summary CSV files",
+        "Meeting transcripts"
+      ],
+      "case_numbers": [
+        "150239",
+        "150758"
+      ],
+      "tools": [
+        "Slater Byrne Recoveries services",
+        "Comprehensive documentation systems"
+      ],
+      "key_principle": "Criminal fraud vs civil debt distinction - no dishonest intent required for debt recovery",
+      "financial_impact": "$15,090 - $16,200 in blocked revenue"
+    },
+    {
+      "project_id": "01975373-babf-76c4-809a-c3246a68a2e7",
+      "title": "SOPE Payment Dispute - Business Survival",
+      "category": "Legal - Payment Dispute",
+      "status": "Critical - Business Threatening",
+      "priority": "Critical",
+      "total_amount": "$93,000 - $105,000 (unpaid invoices)",
+      "description": "Complex contractual dispute with SOPE over scope creep, project reassignments, and payment withholding",
+      "parties": {
+        "contractor": "The Waffle Co",
+        "client": "SOPE",
+        "ceo": "Trent Allday",
+        "project_manager": "Ash (Ashley Kenny)"
+      },
+      "key_invoices": [
+        {
+          "number": "B-4147",
+          "project": "Kimberly-Clark Project",
+          "status": "Unpaid"
+        },
+        {
+          "number": "B-4148",
+          "project": "ARPC Project",
+          "status": "Unpaid"
+        }
+      ],
+      "root_cause": "Scope creep management - 'Could Have' requirements elevated to 'Must Have' without change requests",
+      "verbal_agreement": "Win the work, do the work (not honored by SOPE)",
+      "business_impact": {
+        "insolvency_risk": "High",
+        "ato_debt": "Unable to meet tax obligations",
+        "cash_flow": "Severe crisis"
+      },
+      "cost_cutting_measures": [
+        "Xero downgrade: Ultimate → Ignite ($35/month starting Dec 15, 2025)"
+      ],
+      "other_overdue_invoices": [
+        {
+          "client": "Fleetwood Urban",
+          "amount": "$482.63",
+          "interest_rate": "13% annual compound"
+        },
+        {
+          "amount": "$1,856.25",
+          "interest_rate": "13% annual compound"
+        }
+      ],
+      "key_evidence": "Renee's statement during handover: 'Let's just pretend that the client has not signed off on anything'",
+      "approach": "In-person resolution preferred for complex disputes",
+      "tools": [
+        "Obsidian (project notes, invoice tracking)",
+        "Xero (invoice creation)",
+        "Excel (compound interest calculations)",
+        "SharePoint Finance site lists",
+        "Azure app registrations",
+        "Lokka-Microsoft MCP tool"
+      ],
+      "compound_interest_formula": "P(1+r/12)^n × (1+(r/360×d)) - P",
+      "financial_impact": "$93,000 - $105,000 blocked + potential business insolvency"
+    },
+    {
+      "project_id": "019993a0-2d96-710f-aaba-0ab4dbb73541",
+      "title": "Australian University AI Programs Research",
+      "category": "Research",
+      "status": "Completed",
+      "priority": "Low",
+      "description": "Systematic research of Australian university AI and data science programs",
+      "universities_analyzed": [
+        "La Trobe",
+        "Monash Online",
+        "University of New England",
+        "Torrens University",
+        "QUT",
+        "Deakin",
+        "UniSQ"
+      ],
+      "program_types": [
+        "Graduate certificates",
+        "Master's degrees",
+        "Computer science with AI specialization",
+        "Applied artificial intelligence"
+      ],
+      "data_extracted": [
+        "Duration",
+        "Fees",
+        "Entry requirements",
+        "Course codes",
+        "Career outcomes",
+        "University rankings",
+        "Contact information"
+      ],
+      "output_format": "Structured JSON with nested objects",
+      "common_patterns_identified": [
+        "Online delivery options",
+        "Industry partnerships with major tech companies",
+        "Varying fee structures (Commonwealth Supported vs full-fee)"
+      ],
+      "tools": [
+        "Claude for document processing",
+        "JSON artifact creation"
+      ],
+      "approach": "Systematic, standardized extraction with identical criteria for comparative analysis",
+      "financial_impact": "None - research only"
+    },
+    {
+      "project_id": "019754f0-58d6-731f-9a26-69cd371d1ee4",
+      "title": "Technology Consulting Business Development",
+      "category": "Business Operations",
+      "status": "Active",
+      "priority": "Medium",
+      "description": "PowerApps development, Xero integrations, and business application solutions consulting in Perth, Australia",
+      "location": "Perth, Western Australia",
+      "specializations": [
+        "PowerApps development",
+        "Xero integrations",
+        "Business application solutions"
+      ],
+      "active_opportunities": [
+        {
+          "client": "TORObLACK coffee company",
+          "project": "Digital platform",
+          "status": "Evaluating - initially misaligned compensation ($300/week for $80-150K work)",
+          "strategy_shift": "Bootstrap solutions using Shopify plugins vs custom development"
+        },
+        {
+          "client": "Pivotel Satellite",
+          "project": "Expense tracker",
+          "status": "Completed AI-powered requirements analysis",
+          "approach": "Complimentary analysis → paid discovery phase"
+        }
+      ],
+      "professional_network": [
+        "Dan (referral source)",
+        "John (backend specialist for referrals)",
+        "Susan (referred to John)"
+      ],
+      "engagement_types": [
+        "Time & Materials",
+        "Fixed-Price",
+        "Discovery Phase",
+        "Retainer",
+        "Support agreements"
+      ],
+      "key_learnings": [
+        "Avoid unrealistic compensation structures",
+        "Proper business analysis before development commitments",
+        "Tutorial solutions = ~35% of enterprise requirements",
+        "AI analysis as complimentary → justifies paid discovery"
+      ],
+      "tech_stack": [
+        "PowerApps",
+        "Xero",
+        "SharePoint",
+        "MCP tools for system connectivity",
+        "Claude for business analysis"
+      ],
+      "legal_compliance": [
+        "Australian legal requirements",
+        "GST handling",
+        "Western Australian jurisdiction"
+      ],
+      "financial_impact": "Revenue generation - currently limited by SOPE dispute cash flow issues"
+    },
+    {
+      "project_id": "019a952e-92de-7691-95b8-8b1cb166d1c2",
+      "title": "SOPE-Kimberly-Clark Misconduct Complaint",
+      "category": "Legal - Workplace Complaint",
+      "status": "Complaint Prepared",
+      "priority": "High",
+      "description": "Formal complaint against SOPE for breach of verbal agreement and project reassignment during bereavement",
+      "client_relationship": "Contractor working with SOPE on Kimberly-Clark e-commerce content specifications",
+      "verbal_agreement_date": "December 2024",
+      "agreement_terms": "If we help you win the work, we get to do the work",
+      "breach": "Projects reassigned using false justifications during bereavement period",
+      "timeline_analysis": "11 calendar days available for 12 work days of work - 'urgency' claim was dishonest",
+      "leverage_point": "SOPE violated KC's own supplier standards (integrity, dignity, respect, good faith)",
+      "kc_supplier_standards": [
+        "Integrity",
+        "Dignity",
+        "Respect",
+        "Good faith dealings"
+      ],
+      "evidence": [
+        "Correspondence",
+        "Timeline analysis",
+        "Documented broken commitments throughout 2025"
+      ],
+      "complaint_package_components": [
+        "Formal complaints to SOPE leadership",
+        "Executive summaries",
+        "Escalation letters for KC Ethics & Compliance",
+        "Supporting documentation"
+      ],
+      "strategic_options": [
+        "Direct resolution with SOPE",
+        "Escalation to Kimberly-Clark Ethics & Compliance"
+      ],
+      "relationship_status": "Likely unsalvageable",
+      "tools": [
+        "strings command for corrupted PDF extraction",
+        "Markdown documentation",
+        "Compliance document analysis"
+      ],
+      "approach": "Mathematical timeline analysis + corporate standards cross-referencing",
+      "financial_impact": "Related to $93-105K SOPE payment dispute"
+    },
+    {
+      "project_id": "019ae32f-47f4-72ca-b53c-cf13fe8e0a6c",
+      "title": "SOPE Contractual Dispute - Legal Strategy",
+      "category": "Legal - Contract Law",
+      "status": "Active Litigation Preparation",
+      "priority": "Critical",
+      "total_disputed": "$93,000 - $105,000",
+      "description": "Comprehensive legal action involving debt collection, promissory estoppel, and Fair Work claims",
+      "contractor": "The Waffle Co Pty Ltd",
+      "client": "SOPE Web Technologies",
+      "contractor_since": "2022",
+      "verbal_arrangement": "January 2025 'win the work, do the work'",
+      "key_stakeholders": {
+        "sope_ceo": "Trent Allday",
+        "sope_ps_manager": "Ashley Kenny",
+        "end_clients": [
+          "Kimberly-Clark",
+          "ARPC",
+          "Achieve Australia",
+          "Derwent Search",
+          "IPC Health"
+        ]
+      },
+      "evidence_volume": {
+        "teams_messages": 3394,
+        "email_chains": "extensive",
+        "contract_terms": "documented",
+        "project_files": "comprehensive"
+      },
+      "critical_escalation": "Bereavement period (Oct-Nov 2025) - multiple projects reassigned, contract terminated effective Jan 2026",
+      "legal_avenues": [
+        "Debt collection (work performed)",
+        "Promissory estoppel (lost opportunities)",
+        "Fair Work Commission (deadline: Jan 23, 2026)"
+      ],
+      "contradictory_positions": [
+        "Demanding written variations while operating informally",
+        "Claiming communication breakdown despite documented contact",
+        "Claiming 'multiple attempts to reach' contradicted by chat logs"
+      ],
+      "critical_evidence": "November 5, 2025 phone call - Trent acknowledged verbal arrangement (linchpin evidence)",
+      "key_disputes": [
+        "Communication breakdown claims vs chat log evidence",
+        "Project reassignment justifications vs timeline facts",
+        "Contractor availability vs assignment patterns"
+      ],
+      "legal_concepts": [
+        "Promissory estoppel",
+        "Ghost clauses (informal practices contradicting written terms)",
+        "Selective enforcement",
+        "Fair Work Act provisions"
+      ],
+      "strategic_angles": [
+        "Ethics complaints to end clients",
+        "ASIC regulatory leverage",
+        "Potential whistleblower protections"
+      ],
+      "business_impact": {
+        "cash_flow": "Critical crisis",
+        "government_creditors": "ATO primarily",
+        "immediate_deadline": "Fair Work: January 23, 2026"
+      },
+      "tools": [
+        "Obsidian (master documentation repository)",
+        "Claude projects (curated document subsets)",
+        "Power BI (timeline visualization, contradiction mapping)",
+        "CSV analysis (chat log processing)",
+        "Android backup (communication preservation)",
+        "Internet Archive (evidence preservation)",
+        "Graphiti (knowledge graphs)",
+        "Event sourcing patterns"
+      ],
+      "approach": "Adversarial analysis, steelmanning opposition, red team thinking, systematic contradiction mapping",
+      "financial_impact": "$93,000 - $105,000 + business survival at stake"
+    },
+    {
+      "project_id": "01975352-5deb-72db-ac7b-024700888d4c",
+      "title": "International Business Legal Templates",
+      "category": "Business Operations - Legal",
+      "status": "Active Development",
+      "priority": "Low",
+      "description": "Standardized NDA templates for international business operations (EU, India)",
+      "company": "The Waffle Co Pty Ltd",
+      "abn": "42 642 737 406",
+      "location": "Alkimos, Western Australia",
+      "business_focus": "Information and data services projects",
+      "international_partnerships": [
+        "EU suppliers/clients",
+        "India suppliers/clients"
+      ],
+      "legal_framework": {
+        "governing_law": "Western Australian law",
+        "dispute_resolution": "Singapore International Arbitration Centre (SIAC)",
+        "data_protection": "GDPR compliance for European relationships"
+      },
+      "nda_design_principles": [
+        "Australia-centric approach",
+        "The Waffle Co as consistent disclosing party",
+        "Wide placeholder brackets for easy completion",
+        "International compliance balance"
+      ],
+      "key_learnings": [
+        "Insurance limitations for NDA breaches (accidental/negligent only, not intentional)",
+        "Insolvency protection clauses critical in international agreements",
+        "Alternative security: bank guarantees, escrow arrangements"
+      ],
+      "dispute_resolution_rationale": "Singapore chosen for geographic/timezone advantages over European venues",
+      "tools": [
+        "Doctor (documentation tool)",
+        "SharePoint + Markdown integration",
+        "Microsoft 365 CLI",
+        "CI/CD pipelines",
+        "Mermaid sequence diagrams"
+      ],
+      "approach": "Practical enforceability over theoretical perfection",
+      "financial_impact": "Risk mitigation for international business"
+    },
+    {
+      "project_id": "0197a61c-0d40-728f-90a2-e5d0e6db9706",
+      "title": "WorkPro Contract - Biometric Verification Issues",
+      "category": "Contract Issues",
+      "status": "Withdrawn by Agency",
+      "priority": "Low - Closed",
+      "description": "Contract opportunity withdrawn due to technical biometric identity verification failures",
+      "agency": "Ignite",
+      "recruiter": "Jemma",
+      "onboarding_system": "WorkPro",
+      "issue": "Biometric verification system repeatedly failed despite standard documentation provided",
+      "documentation_provided": [
+        "License",
+        "Medicare",
+        "Insurance certificates"
+      ],
+      "withdrawal_reason": "Agency claimed 'lack of responsiveness'",
+      "actual_situation": "Extensive documentation of communication attempts",
+      "agency_position": "Cannot proceed without citizenship verification via biometric system",
+      "current_activity": "Seeking industry insights on biometric scanning requirements becoming standard",
+      "professional_contacts_consulted": [
+        "Hazel (established recruiter)"
+      ],
+      "research_question": "Are biometric scanning requirements for contract issuance becoming standard practice?",
+      "approach": "Leveraging professional network for industry insights and guidance",
+      "financial_impact": "Lost opportunity - amount unknown"
+    },
+    {
+      "project_id": "019752da-d956-7009-8180-3394720b1132",
+      "title": "Expert-Led Business Model Research",
+      "category": "Research - Business Innovation",
+      "status": "Exploratory",
+      "priority": "Low",
+      "description": "Exploring consulting models where expert judgment takes precedence over client requests",
+      "motivation": "Moving beyond 'customer is always right' mentality that undermines professional expertise",
+      "structural_mechanisms_identified": [
+        "Contractual arrangements (outcome-based payment)",
+        "Positional authority (gatekeeping roles)",
+        "Reputational factors"
+      ],
+      "key_insight": "Customers typically right about what they value, often wrong about solutions",
+      "historical_context": {
+        "origin": "Early 1900s retail",
+        "pioneers": [
+          "Selfridge",
+          "Marshall Field"
+        ],
+        "original_intent": "Stock desired products, handle complaints respectfully",
+        "corruption": "Became enabler of customer abuse over time"
+      },
+      "industries_examined": [
+        "Medical (outcome-based authority)",
+        "Legal (professional judgment protected)",
+        "Specialized consulting"
+      ],
+      "approach": "Structural framework analysis + historical evolution study",
+      "financial_impact": "Potential future business model transformation"
+    },
+    {
+      "project_id": "019b1011-cc3c-73ef-957b-c1239d7280fa",
+      "title": "INF501 Academic Assessment - Corporate Info Services",
+      "category": "Academic Assessment",
+      "status": "Part 2 in Progress",
+      "priority": "High",
+      "course": "INF501",
+      "description": "Analyzing Corporate Information Services sector with Woodside Energy Service Line Owner role case study",
+      "sector_focus": "Corporate information management (NOT library/GLAM)",
+      "frameworks_required": [
+        "ITIL",
+        "COBIT",
+        "ARMA International standards",
+        "AIIM standards"
+      ],
+      "frameworks_to_avoid": [
+        "ALIA materials",
+        "Traditional library references"
+      ],
+      "case_study": {
+        "company": "Woodside Energy",
+        "role": "Service Line Owner",
+        "focus_areas": [
+          "Enterprise content management",
+          "SharePoint governance",
+          "Information architecture"
+        ]
+      },
+      "assessment_parts": [
+        {
+          "part": 1,
+          "status": "Completed"
+        },
+        {
+          "part": 2,
+          "status": "In Progress",
+          "activities": [
+            "Detailed Woodside interview transcript analysis",
+            "Job role comparisons",
+            "Academic search strategies"
+          ]
+        }
+      ],
+      "research_pivot": "From IT infrastructure roles → Information governance/ECM/strategic document management roles",
+      "databases_used": [
+        "ProQuest Central",
+        "Emerald Insight",
+        "Scopus",
+        "Semantic Scholar (preferred over Google Scholar)"
+      ],
+      "professional_bodies": [
+        "ARMA International",
+        "AIIM",
+        "ISACA"
+      ],
+      "key_challenges": [
+        "Content sprawl in large organizations",
+        "Disposal decision paralysis",
+        "AI readiness preparation"
+      ],
+      "tools": [
+        "Semantic Scholar",
+        "Obsidian (reference management)",
+        "APA 7 formatting",
+        "Boolean search strategies",
+        "Citation chaining",
+        "JSON reference logs"
+      ],
+      "approach": "Iterative refinement - broad analysis → gap identification → focused searches",
+      "financial_impact": "Academic tuition costs"
+    },
+    {
+      "project_id": "0197834e-74a7-7631-bf87-ff8efcce93f3",
+      "title": "Superannuation Guarantee Compliance",
+      "category": "Compliance - Tax",
+      "status": "Active Analysis",
+      "priority": "High",
+      "description": "Super Guarantee Charge (SGC) obligations spanning September 2022 to March 2025",
+      "timeframe": {
+        "start": "September 2022",
+        "end": "March 2025",
+        "duration": "30 months"
+      },
+      "compliance_issue": "Ongoing SGC obligations requiring resolution",
+      "current_activity": "Collating and analyzing financial data from multiple SGC statement files",
+      "data_extraction_targets": [
+        "Interest payable amounts",
+        "Total debt figures"
+      ],
+      "file_format": "Excel-based SGC statements (multiple worksheets per period)",
+      "tools": [
+        "Excel workbooks",
+        "Python with pandas (for systematic extraction)"
+      ],
+      "approach": "Systematic file iteration examining multiple sheets to locate target financial data",
+      "financial_impact": "Unknown total - currently being calculated from multiple periods"
+    },
+    {
+      "project_id": "019b2299-0f28-7612-a2ff-6586795e6022",
+      "title": "Business-as-Code and Semantic Layers Research",
+      "category": "Research - MIS",
+      "status": "Active Exploration",
+      "priority": "Medium",
+      "description": "Research on semantic layers and ontological commitments in business systems",
+      "research_questions": [
+        "How business entities and relationships should be modeled",
+        "Intersection between static modeling and dynamic execution",
+        "How business data structures should emerge vs designed upfront",
+        "How schemas should be determined in business modeling systems"
+      ],
+      "tool_evaluation": {
+        "name": "Firm",
+        "type": "Open-source CLI tool",
+        "language": "Rust",
+        "representation": "Plain-text DSL files for business entities"
+      },
+      "use_cases_examined": [
+        "Invoice tracking",
+        "Expense recording",
+        "Bank reconciliation"
+      ],
+      "syntax_preferences": [
+        "YAML (preferred)",
+        "TOML (preferred)",
+        "Complex DSL (less preferred)"
+      ],
+      "preferred_approach": "Hybrid evolutionary methodology",
+      "methodology_details": [
+        "Start with built-in entity types and loose structures",
+        "Observe actual usage patterns",
+        "Gradually formalize schemas based on real needs",
+        "Organic evolution over upfront design"
+      ],
+      "architectural_concepts": [
+        "Duck typing",
+        "Built-in entity types",
+        "Custom schema definition"
+      ],
+      "research_methodology": "Comprehensive technical analysis → practical testing → fundamental assumption questioning",
+      "approach_philosophy": "Iterative development and organic evolution over rigid upfront planning",
+      "potential_mis_thesis_topic": true,
+      "financial_impact": "Academic research - potential consulting productization"
+    }
+  ],
+  "summary_statistics": {
+    "total_projects": 13,
+    "by_category": {
+      "Legal": 4,
+      "Academic": 3,
+      "Business Operations": 3,
+      "Research": 3,
+      "Technical Development": 1,
+      "Career": 1,
+      "Compliance": 1,
+      "Contract Issues": 1
+    },
+    "by_priority": {
+      "Critical": 3,
+      "High": 4,
+      "Medium": 3,
+      "Low": 3
+    },
+    "by_status": {
+      "Active": 9,
+      "In Progress": 2,
+      "Completed": 1,
+      "Closed": 1
+    },
+    "total_financial_exposure": {
+      "blocked_revenue": "$108,000 - $121,000",
+      "sope_dispute": "$93,000 - $105,000",
+      "forge_dispute": "$15,000 - $16,000",
+      "other_overdue": "$2,338.88",
+      "sgc_obligations": "TBD",
+      "insolvency_risk": "High"
+    }
+  }
+}
