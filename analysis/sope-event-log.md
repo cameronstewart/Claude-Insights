@@ -14,6 +14,7 @@
 ## Event Timeline - Who, What, Where, When, Why, How
 
 ### Event 1: Original Contractor Agreement
+**ISSUE/PROJECT**: Foundation Agreement
 **WHEN**: February 13, 2023
 **WHO**: The Waffle Co Pty Ltd ↔ SOPE Web Technologies
 **WHAT**: Formal contractor agreement established
@@ -32,6 +33,7 @@
 ---
 
 ### Event 2: Verbal "Win the Work, Do the Work" Agreement
+**ISSUE/PROJECT**: Verbal Agreement Dispute
 **WHEN**: January 2025
 **WHO**: Cameron Stewart ↔ Trent Allday (SOPE)
 **WHAT**: Verbal agreement on project assignment protocol
@@ -48,6 +50,7 @@
 ---
 
 ### Event 3: November 5, 2025 Discussion
+**ISSUE/PROJECT**: Verbal Agreement Dispute
 **WHEN**: November 5, 2025
 **WHO**: Cameron Stewart + Trent Allday
 **WHAT**: Discussion about project assignment agreement
@@ -63,7 +66,107 @@
 
 ---
 
-### Event 4: ARPC Project - Assignment Discussion
+### Event 4: IPC Health Service Directory Project (Successful Collaboration)
+**ISSUE/PROJECT**: IPC Health (Context/Background)
+**WHEN**: June 2025
+**WHO**: Cameron Stewart + Ashley Kenny + IPC Health (Melissa Evans, Brodie Preston, Shannon Muir)
+**WHAT**: Collaborative engagement on IPC Health Service Directory project
+**WHERE**: Multiple workshops and meetings
+**WHY**: To develop SharePoint-based service directory solution
+**HOW**: Standard SOPE project delivery process
+
+**Details**:
+- Professional, collaborative working relationship between Cameron and Ashley Kenny
+- Successful requirements workshops and technical planning
+- Coordination with client IT and MSP for access and change management
+- Normal project kickoff and planning activities
+
+**Significance**: Demonstrates that Cameron-SOPE relationship functioned well on concurrent projects; provides baseline for "normal" professional collaboration; shows breakdown was project-specific, not general incompetence
+
+---
+
+### Event 5: Kimberly-Clark - 12-Day Proposal Recommendation
+**ISSUE/PROJECT**: Kimberly-Clark Project
+**WHEN**: June 10, 2025
+**WHO**: Ashley Kenny → Kimberly-Clark
+**WHAT**: SOPE recommends approval of 12-day proposal with Cameron assigned
+**WHERE**: Email communication
+**WHY**: To schedule Cameron for K-C engagement
+**HOW**: Formal proposal recommendation
+
+**Details**:
+- Ashley Kenny writes: "Our recommended path is to approve the 12-day proposal provided so we can schedule Cameron to the engagement"
+- Cameron had direct working relationships with K-C staff (Hourie Demirjian, Lauren Crawley)
+- Cameron participated in requirements meetings and developed technical solutions
+- Delivered UAT version of system
+
+**Significance**: Establishes SOPE's intent to assign Cameron to K-C delivery work; shows Cameron was SOPE's recommended consultant
+
+---
+
+### Event 6: Kimberly-Clark - Pattern of Unapproved Work Documented
+**ISSUE/PROJECT**: Kimberly-Clark Project
+**WHEN**: June 18, 2025
+**WHO**: Cameron Stewart → Lauren Crawley (K-C)
+**WHAT**: Cameron documents pattern of unapproved work requests
+**WHERE**: Email to client
+**WHY**: To establish boundaries around approved vs. unapproved time
+**HOW**: Direct written communication to client
+
+**Email Content** (per Cameron):
+- "Time spent beyond the approved quota were not initiated by me - yet that time has been invested"
+- "The lessons from February, when efforts to 'push for the outcome' exceeded agreed time allocations, remain very clear to me"
+- "Since UAT, I honestly can't count how many times I've raised this, including: before meetings were requested, before meetings were scheduled, during meetings, as the top action item arising from those meetings..."
+- "I understand that my repeated insistence on this point - or my reluctance to continue investing time under the current, unapproved conditions - may have been perceived as disengagement"
+
+**Details**:
+- Throughout 2025, K-C staff repeatedly requested Cameron's involvement without prior approval
+- K-C requested requotes, revised estimates, impact analysis - adding to unapproved work
+- Cameron repeatedly cautioned that time needed approval before requesting involvement
+- Understanding was consultation investment would be recouped during delivery phase
+
+**Significance**: Documents approval gap problem months before reassignment; shows Cameron attempted transparency; establishes pattern of unapproved work
+
+---
+
+### Event 7: Ashley Kenny Rebukes Cameron for Client Transparency
+**ISSUE/PROJECT**: Kimberly-Clark Project / Internal SOPE Management
+**WHEN**: After June 18, 2025
+**WHO**: Ashley Kenny → Cameron Stewart
+**WHAT**: Ashley rebukes Cameron for transparency email to K-C
+**WHERE**: Internal SOPE communication
+**WHY**: SOPE objected to Cameron's candor with client about approval issues
+**HOW**: Direct rebuke
+
+**Details**:
+- Ashley Kenny: "we do not speak to clients like that"
+- SOPE preferred K-C not know true situation regarding unapproved work
+- Demonstrates conflicting expectations: professional conduct vs. transparency
+
+**Significance**: Shows SOPE actively discouraged transparency with clients about approval gaps; relevant to later ethics complaint; demonstrates management style conflict
+
+---
+
+### Event 8: Kimberly-Clark - Client Acknowledges Project Approach Problems
+**ISSUE/PROJECT**: Kimberly-Clark Project
+**WHEN**: June 26, 2025
+**WHO**: Lauren Crawley (K-C) → Cameron Stewart
+**WHAT**: K-C acknowledges project wasn't approached correctly
+**WHERE**: Email communication
+**WHY**: Response to Cameron's June 18 concerns
+**HOW**: Written acknowledgment
+
+**Details**:
+- Lauren Crawley: "I think in hindsight the project wasn't approached the right way or with the right engagement setup (time & materials)"
+- Client acknowledges approval process gap
+- Validates Cameron's concerns about project structure
+
+**Significance**: Third-party (client) validation of Cameron's position; demonstrates issue was structural, not Cameron's conduct
+
+---
+
+### Event 9: ARPC Project - Assignment Discussion
+**ISSUE/PROJECT**: ARPC Project
 **WHEN**: October 2025 (timing inferred)
 **WHO**: Cameron Stewart ↔ SOPE
 **WHAT**: ARPC project assignment discussion
@@ -79,7 +182,27 @@
 
 ---
 
-### Event 5: October 22, 2025 - Derwent Project Approval
+### Event 10: Account Standing - SOPE in Arrears
+**ISSUE/PROJECT**: Account Standing / Payment Dispute
+**WHEN**: October 2025
+**WHO**: Cameron Stewart ↔ SOPE
+**WHAT**: Cameron communicates SOPE account not in good standing due to unpaid invoices
+**WHERE**: Internal communications
+**WHY**: Multiple unpaid invoices from earlier projects
+**HOW**: Written and verbal communications
+
+**Details**:
+- Cameron had communicated that SOPE needed to "get their accounts in order"
+- Account was in arrears on other projects
+- Cameron exercised caution about continuing work on credit
+- This context explains Cameron's later reluctance characterized by SOPE as "unavailability"
+
+**Significance**: Establishes financial context for Cameron's conduct; shows his caution was corporate diligence, not unresponsiveness; SOPE approved new work despite being in arrears
+
+---
+
+### Event 11: October 22, 2025 - Derwent Project Approval
+**ISSUE/PROJECT**: Derwent Project
 **WHEN**: October 22, 2025
 **WHO**: SOPE → Cameron Stewart
 **WHAT**: 0.5 days approved for Derwent project
@@ -91,23 +214,47 @@
 
 ---
 
-### Event 6: Kimberly-Clark Project Assignment
+### Event 12: Kimberly-Clark - Work Approved Despite Account in Arrears
+**ISSUE/PROJECT**: Kimberly-Clark Project / Account Standing
+**WHEN**: October 23, 2025
+**WHO**: Ashley Kenny → Cameron Stewart
+**WHAT**: K-C work approved; availability requested for workshop
+**WHERE**: Email communication
+**WHY**: To proceed with K-C delivery phase
+**HOW**: Written approval and availability request
+
+**Details**:
+- Ashley Kenny: "KCC - The works are approved (not sure if you saw my email about it last week), so we need to get availability for a workshop please?"
+- This occurred while SOPE account was in bad standing (see Event 10)
+- Cameron provided availability when work was approved
+- Cameron declined other client opportunities to remain available for K-C
+- Understanding was this would recoup earlier unapproved consultation work
+
+**Significance**: SOPE approved new work despite being in arrears; Cameron relied on this approval and remained available; sets up later "unavailability" dispute
+
+---
+
+### Event 13: Kimberly-Clark Project - Initial Assignment
+**ISSUE/PROJECT**: Kimberly-Clark Project
 **WHEN**: Prior to November 14, 2025
 **WHO**: SOPE → Cameron Stewart
 **WHAT**: Kimberly-Clark project assigned to Cameron
 **WHERE**: Project assignment
-**WHY**: Cameron contributed to proposal
+**WHY**: Cameron contributed to proposal and presales work
 **HOW**: Formal assignment
 
 **Details**:
 - Cameron contributed to proposal and was initially assigned to deliver
-- Cameron had background knowledge of project
+- Cameron had background knowledge of project from months of involvement
+- Had delivered UAT version
+- Work approved October 23, 2025 (see Event 12)
 
-**Status**: Later cancelled (see Event 8)
+**Status**: Later cancelled (see Event 14)
 
 ---
 
-### Event 7: Achieve Australia Project - Initial Assignment
+### Event 14: Achieve Australia Project - Initial Assignment
+**ISSUE/PROJECT**: Achieve Australia Project
 **WHEN**: Prior to November 14, 2025
 **WHO**: SOPE → Cameron Stewart
 **WHAT**: Achieve Australia project assignment
@@ -119,8 +266,9 @@
 
 ---
 
-### Event 8: Kimberly-Clark Project Cancellation
-**WHEN**: November 14, 2025
+### Event 15: Kimberly-Clark Project Reassignment
+**ISSUE/PROJECT**: Kimberly-Clark Project
+**WHEN**: November 14, 2025, 7:32 AM
 **WHO**: Trent Allday → Cameron Stewart
 **WHAT**: Kimberly-Clark project reassigned to another team member
 **WHERE**: Email communication
@@ -138,16 +286,47 @@ On another note, you are still scheduled to work on the Derwent and Achieve proj
 
 I would really appreciate it if you could get back to us as soon as possible – ideally today – so we can finalize the next steps and keep everything on track."
 
-**Cameron's Position**: Project cancelled with more than 12 calendar days available to complete work; had background knowledge and sufficient time
+**Cameron's Position**:
+- Project reassigned just 3 weeks after work was approved (Oct 23)
+- Had more than 12 calendar days available to complete work
+- Had background knowledge from months of involvement and sufficient time
+- Had provided availability when work was approved
+- Had declined other client opportunities to remain available
+- Reassignment broke mechanism to recoup earlier unapproved consultation work
 
-**Cameron's Response**: Accused SOPE of despicable behavior; noted account not in good standing
-
-**Significance**: Cameron had declined other client opportunities to remain available
+**Significance**: Occurs without prior discussion despite Cameron's institutional knowledge; only 3 weeks after approval; Cameron had remained available
 
 ---
 
-### Event 9: Derwent Search Reassignment
-**WHEN**: November 21, 2025
+### Event 16: Cameron's Same-Day Response to K-C Reassignment
+**ISSUE/PROJECT**: Kimberly-Clark Project / Account Standing
+**WHEN**: November 14, 2025 (same day as Event 15)
+**WHO**: Cameron Stewart → Trent Allday
+**WHAT**: Immediate response accusing SOPE of "despicable behaviour"
+**WHERE**: Email reply
+**WHY**: Reaction to project reassignment while account in arrears
+**HOW**: Direct confrontational email
+
+**Email Content**:
+"Hi Trent
+
+Considering your SOPE account is not yet in good standing, I think you can forget the hope you's, thankyou for you understanding, random 🙂 emojis, happy Fridays etc.
+
+Secondly, to link describe the process: . This is dispicable behaviour Trent."
+
+**Details**:
+- Response sent same day as reassignment notification
+- References account not in good standing (see Event 10)
+- Explicitly calls out perceived disingenuous tone in Trent's email
+- First direct confrontation in email record
+
+**Significance**: Shows immediate reaction, not delayed escalation; demonstrates frustration with account arrears being ignored while work reassigned; relationship breakdown now explicit
+
+---
+
+### Event 17: Derwent Search Reassignment
+**ISSUE/PROJECT**: Derwent Project
+**WHEN**: November 21, 2025, 12:04 PM
 **WHO**: Ashley Kenny → Cameron Stewart
 **WHAT**: Derwent Search project reassigned, effective immediately
 **WHERE**: Email communication
@@ -168,7 +347,8 @@ Ash"
 
 ---
 
-### Event 10: Formal Breach Notice from Cameron
+### Event 18: Formal Breach Notice from Cameron
+**ISSUE/PROJECT**: Dispute Escalation
 **WHEN**: November 21, 2025, 4:43 PM
 **WHO**: Cameron Stewart → Trent Allday
 **WHAT**: Formal notice of breach of project assignment agreement
@@ -203,7 +383,8 @@ Ash"
 
 ---
 
-### Event 11: SOPE's Formal Response
+### Event 19: SOPE's Formal Response and Contract Termination
+**ISSUE/PROJECT**: Dispute Escalation / Contract Termination
 **WHEN**: December 3, 2025, 2:25 PM
 **WHO**: Trent Allday → Cameron Stewart
 **WHAT**: Comprehensive rejection of breach claims and contract termination notice
@@ -245,47 +426,28 @@ Ash"
 
 ---
 
-### Event 12: Presales Invoice B-4155
-**WHEN**: December 8, 2025, 12:51 PM
-**WHO**: Cameron Stewart → Trent Allday + SOPE Accounts
-**WHAT**: Invoice for presales work performed in 2024
-**WHERE**: Email via Xero
-**WHY**: To claim payment for presales activities
-**HOW**: Invoice submission
+### Event 20: ARPC Laptop Collection Request (Initial)
+**ISSUE/PROJECT**: ARPC Project
+**WHEN**: November 26, 2025, 4:39 PM
+**WHO**: Ashley Kenny → Cameron Stewart
+**WHAT**: Request to return ARPC laptop via courier
+**WHERE**: Email communication
+**WHY**: ARPC client requesting equipment return
+**HOW**: Email request
 
-**Invoice Details**:
-- **Invoice Number**: B-4155
-- **Amount**: $16,940.00 AUD (inclusive of GST)
-- **Description**: "Presales 2024 - Work requested by SOPE Clients and SOPE Sales. Availability, timing and deliverables mutually agreed."
-- **Base Amount**: $15,400.00
-- **GST (10%)**: $1,540.00
-- **Due Date**: December 22, 2025
+**Email Content**:
+"Hi Cam,
 
-**Timing**: Submitted 5 days after SOPE's termination notice
+ARPC need to organise the collection of their laptop via courier.
 
----
+Could you please confirm when this can be available for collection, and from where?"
 
-### Event 13: Rejection of Presales Invoice
-**WHEN**: December 2025 (date in document shows future date, likely typo)
-**WHO**: Trent Allday → Cameron Stewart
-**WHAT**: Rejection of Invoice B-4155
-**WHERE**: Email response
-**WHY**: Disputed work authorization and timing
-**HOW**: Written rejection
-
-**Rejection Reasons**:
-1. No agreement, quote, or purchase order in place for this work
-2. SOPE has no knowledge of presales activities or record of work being requested/approved
-3. Invoicing work from 2024 in December 2025 is unreasonable
-4. Does not align with contract invoicing terms (requires invoices on first business day of month for prior month's work)
-5. Work never raised, discussed, or invoiced during 2024 or 2025 until now
-6. Timing suggests invoice is not legitimate claim but response to earlier disputed correspondence
-
-**SOPE's Position**: "We reject this invoice in its entirety"
+**Significance**: Evidence of client equipment still in Cameron's possession; timing during dispute escalation
 
 ---
 
-### Event 14: Four Additional Invoices Submitted
+### Event 21: Four Invoices for "Loss of Engagement" Submitted
+**ISSUE/PROJECT**: Dispute Escalation / Payment Claims
 **WHEN**: November 27, 2025
 **WHO**: Cameron Stewart → SOPE
 **WHAT**: Four invoices totaling $76,835 submitted
@@ -306,22 +468,16 @@ Ash"
 
 ---
 
-### Event 15: ARPC Laptop Collection Request
-**WHEN**: November 26, 2025 (initial); December 5, 2025 (follow-up)
+### Event 22: ARPC Laptop Collection Follow-up Request with Deadline
+**ISSUE/PROJECT**: ARPC Project
+**WHEN**: December 5, 2025, 5:41 AM
 **WHO**: Ashley Kenny → Cameron Stewart
-**WHAT**: Request to return ARPC laptop via courier
+**WHAT**: Follow-up request to return ARPC laptop with deadline
 **WHERE**: Email communication
-**WHY**: ARPC client requesting equipment return
-**HOW**: Email requests with deadline
+**WHY**: No response to initial November 26 request
+**HOW**: Email with explicit deadline
 
-**Initial Request** (November 26, 2025, 4:39 PM):
-"Hi Cam,
-
-ARPC need to organise the collection of their laptop via courier.
-
-Could you please confirm when this can be available for collection, and from where?"
-
-**Follow-up** (December 5, 2025, 5:41 AM):
+**Email Content** (December 5, 2025, 5:41 AM):
 "Hi Cam,
 
 I'm following up on the below. ARPC have requested the return of their laptop via courier (they will organise).
@@ -330,7 +486,85 @@ Could you please confirm when this can be available for collection, and from whe
 
 Please acknowledge and provide a response to this email before COB AEDT Monday, 8th December."
 
-**Significance**: Evidence of client equipment still in Cameron's possession; potential leverage point in dispute
+**Significance**: Evidence of client equipment still in Cameron's possession; potential leverage point in dispute; demonstrates continued communication issues during dispute
+
+---
+
+### Event 23: Presales Invoice B-4155 Submitted
+**ISSUE/PROJECT**: Payment Claims / Presales Work
+**WHEN**: December 8, 2025, 12:51 PM
+**WHO**: Cameron Stewart → Trent Allday + SOPE Accounts
+**WHAT**: Invoice for presales work performed in 2024
+**WHERE**: Email via Xero
+**WHY**: To claim payment for presales activities
+**HOW**: Invoice submission
+
+**Invoice Details**:
+- **Invoice Number**: B-4155
+- **Amount**: $16,940.00 AUD (inclusive of GST)
+- **Description**: "Presales 2024 - Work requested by SOPE Clients and SOPE Sales. Availability, timing and deliverables mutually agreed."
+- **Base Amount**: $15,400.00
+- **GST (10%)**: $1,540.00
+- **Due Date**: December 22, 2025
+
+**Timing**: Submitted 5 days after SOPE's termination notice (Dec 3)
+
+**Significance**: Claim for work from 2024 not previously invoiced; timing raises questions about legitimacy vs. retaliatory claim
+
+---
+
+### Event 24: Rejection of Presales Invoice B-4155
+**ISSUE/PROJECT**: Payment Claims / Presales Work
+**WHEN**: December 2025 (specific date not documented)
+**WHO**: Trent Allday → Cameron Stewart
+**WHAT**: Rejection of Invoice B-4155
+**WHERE**: Email response
+**WHY**: Disputed work authorization and timing
+**HOW**: Written rejection
+
+**Rejection Reasons**:
+1. No agreement, quote, or purchase order in place for this work
+2. SOPE has no knowledge of presales activities or record of work being requested/approved
+3. Invoicing work from 2024 in December 2025 is unreasonable
+4. Does not align with contract invoicing terms (requires invoices on first business day of month for prior month's work)
+5. Work never raised, discussed, or invoiced during 2024 or 2025 until now
+6. Timing suggests invoice is not legitimate claim but response to earlier disputed correspondence
+
+**SOPE's Position**: "We reject this invoice in its entirety"
+
+**Significance**: SOPE's systematic rejection of all Cameron's payment claims; documentation and timing issues undermine Cameron's position
+
+---
+
+### Event 25: Kimberly-Clark Ethics Helpline Submission
+**ISSUE/PROJECT**: Kimberly-Clark Project / External Escalation
+**WHEN**: December 2025 (estimated)
+**WHO**: Cameron Stewart → Kimberly-Clark Supplier Code of Conduct Helpline
+**WHAT**: Formal ethics complaint against SOPE as K-C supplier
+**WHERE**: K-C Ethics/Procurement system
+**WHY**: Escalation beyond SOPE dispute to client's ethics process
+**HOW**: Formal helpline submission
+
+**Complaint Allegations**:
+1. **Supplier Code Breach**: SOPE failed to "extend principles of fair and honest dealing to all others with whom they do business, including employees, subcontractors"
+2. **K-C Unknowingly Received Work from Unpaid Subcontractor**: K-C's project benefited from Cameron's months of consultation and expertise - labor SOPE refuses to pay for
+3. **SOPE Kept K-C in Dark**: SOPE discouraged transparency about approval gaps and payment issues
+4. **Pattern of Unapproved Work**: Throughout 2025, K-C staff requested Cameron's involvement without prior approval; approval gap never closed
+5. **Work Approved While SOPE in Arrears**: Oct 23 work approval despite SOPE account in bad standing
+6. **Reassignment Broke Compensation Mechanism**: Reassignment prevented Cameron from recouping earlier unapproved consultation work
+7. **Contract Clause Misuse**: SOPE misinterprets "Location" clause to avoid payment obligations
+8. **Project Continuity Disrupted**: Consultant K-C worked with for months suddenly replaced without explanation
+
+**K-C Staff with Direct Knowledge** (per submission):
+- Hourie Demirjian (K-C Project Stakeholder)
+- Lauren Crawley (K-C Project Stakeholder)
+
+**Supporting Documents** (per submission):
+1. June 2025 email thread - Cameron's documented concerns, K-C's repeated requests, Lauren's acknowledgment
+2. November 14, 2025 - reassignment email from Trent Allday
+3. October 23, 2025 - Ashley Kenny confirming "works are approved"
+
+**Significance**: Major escalation involving K-C's procurement/ethics team; could affect SOPE's relationship with K-C beyond this project; reframes dispute as supplier ethics issue, not just contractor dispute; demonstrates Cameron's willingness to escalate through client channels
 
 ---
 

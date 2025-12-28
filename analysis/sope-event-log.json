@@ -4,7 +4,7 @@
     "project_uuid": "019ae32f-47f4-72ca-b53c-cf13fe8e0a6c",
     "case_type": "Contractor Dispute - Project Reassignment and Payment",
     "created_at": "2025-12-03T07:48:38.013033+00:00",
-    "updated_at": "2025-12-03T07:48:38.013033+00:00",
+    "updated_at": "2025-12-28T00:00:00.000000+00:00",
     "dispute_period": "2025-01 to 2025-12",
     "parties": {
       "contractor": {
@@ -47,554 +47,353 @@
   "events": [
     {
       "event_id": "E001",
+      "issue_project": "Foundation Agreement",
       "event_type": "contract_establishment",
       "date": "2023-02-13",
-      "who": {
-        "parties": ["The Waffle Co Pty Ltd", "SOPE Web Technologies"]
-      },
+      "actor": "The Waffle Co Pty Ltd & SOPE Web Technologies",
+      "recipient": null,
       "what": "Formal contractor agreement established",
       "where": "Written contract",
       "why": "To establish ongoing contractor relationship",
       "how": "Signed written agreement",
-      "details": {
-        "work_terms": "As agreed between yourself, the Company and customers",
-        "mutual_agreement_required": true,
-        "variation_clause": "Variations must be in writing to be enforceable",
-        "termination_clause": "One month written notice required"
-      },
-      "significance": "Foundation contract governing all subsequent work arrangements"
+      "significance": "Foundation contract governing all subsequent work arrangements",
+      "status": null
     },
     {
       "event_id": "E002",
+      "issue_project": "Verbal Agreement Dispute",
       "event_type": "verbal_agreement",
       "date": "2025-01",
-      "timestamp": null,
-      "who": {
-        "parties": ["Cameron Stewart", "Trent Allday (SOPE)"]
-      },
+      "actor": "Cameron Stewart",
+      "recipient": "Trent Allday (SOPE)",
       "what": "Verbal 'win the work, do the work' agreement",
       "where": "Verbal discussion",
       "why": "To establish expectations for presales work and project delivery",
       "how": "Oral agreement",
-      "agreement_terms": {
-        "description": "If we help you win the work, we get to do the work",
-        "claimed_by": "Cameron Stewart",
-        "disputed_by": "SOPE"
-      },
       "significance": "Central point of dispute - SOPE denies this agreement; Cameron claims it was acknowledged",
       "status": "Disputed"
     },
     {
       "event_id": "E003",
+      "issue_project": "Verbal Agreement Dispute",
       "event_type": "discussion",
       "date": "2025-11-05",
-      "who": {
-        "participants": ["Cameron Stewart", "Trent Allday"]
-      },
+      "actor": "Cameron Stewart & Trent Allday",
+      "recipient": null,
       "what": "Discussion about project assignment agreement",
       "where": "Meeting/call",
       "why": "Cameron raising concerns about agreement not being honoured",
       "how": "Direct conversation",
-      "cameron_claims": [
-        "Trent acknowledged the 'win the work, do the work' arrangement",
-        "Trent expressed surprise it wasn't being honoured"
-      ],
-      "sope_position": "No recollection of unconditional commitment; agreement would require written variation",
+      "significance": "Cameron claims Trent acknowledged agreement; SOPE denies unconditional commitment",
       "status": "Disputed acknowledgement"
     },
     {
       "event_id": "E004",
+      "issue_project": "IPC Health (Context/Background)",
+      "event_type": "successful_collaboration",
+      "date": "2025-06",
+      "actor": "Cameron Stewart + Ashley Kenny + IPC Health",
+      "recipient": null,
+      "what": "Collaborative engagement on IPC Health Service Directory project",
+      "where": "Multiple workshops and meetings",
+      "why": "To develop SharePoint-based service directory solution",
+      "how": "Standard SOPE project delivery process",
+      "significance": "Demonstrates Cameron-SOPE relationship functioned well on concurrent projects; provides baseline for normal collaboration",
+      "status": null
+    },
+    {
+      "event_id": "E005",
+      "issue_project": "Kimberly-Clark Project",
+      "event_type": "proposal_recommendation",
+      "date": "2025-06-10",
+      "actor": "Ashley Kenny",
+      "recipient": "Kimberly-Clark",
+      "what": "SOPE recommends approval of 12-day proposal with Cameron assigned",
+      "where": "Email communication",
+      "why": "To schedule Cameron for K-C engagement",
+      "how": "Formal proposal recommendation",
+      "significance": "Establishes SOPE's intent to assign Cameron to K-C delivery work",
+      "status": null
+    },
+    {
+      "event_id": "E006",
+      "issue_project": "Kimberly-Clark Project",
+      "event_type": "pattern_documentation",
+      "date": "2025-06-18",
+      "actor": "Cameron Stewart",
+      "recipient": "Lauren Crawley (K-C)",
+      "what": "Cameron documents pattern of unapproved work requests",
+      "where": "Email to client",
+      "why": "To establish boundaries around approved vs. unapproved time",
+      "how": "Direct written communication to client",
+      "significance": "Documents approval gap problem months before reassignment; shows Cameron attempted transparency",
+      "status": null
+    },
+    {
+      "event_id": "E007",
+      "issue_project": "Kimberly-Clark Project / Internal SOPE Management",
+      "event_type": "internal_rebuke",
+      "date": "2025-06 (after 06-18)",
+      "actor": "Ashley Kenny",
+      "recipient": "Cameron Stewart",
+      "what": "Ashley rebukes Cameron for transparency email to K-C",
+      "where": "Internal SOPE communication",
+      "why": "SOPE objected to Cameron's candor with client about approval issues",
+      "how": "Direct rebuke",
+      "significance": "Shows SOPE actively discouraged transparency with clients about approval gaps",
+      "status": null
+    },
+    {
+      "event_id": "E008",
+      "issue_project": "Kimberly-Clark Project",
+      "event_type": "client_acknowledgment",
+      "date": "2025-06-26",
+      "actor": "Lauren Crawley (K-C)",
+      "recipient": "Cameron Stewart",
+      "what": "K-C acknowledges project wasn't approached correctly",
+      "where": "Email communication",
+      "why": "Response to Cameron's June 18 concerns",
+      "how": "Written acknowledgment",
+      "significance": "Third-party (client) validation of Cameron's position; demonstrates issue was structural",
+      "status": null
+    },
+    {
+      "event_id": "E009",
+      "issue_project": "ARPC Project",
       "event_type": "project_assignment",
       "date": "2025-10",
-      "project_name": "ARPC",
-      "who": {
-        "actor": "SOPE",
-        "affected": "Cameron Stewart"
-      },
+      "actor": "SOPE",
+      "recipient": "Cameron Stewart",
       "what": "ARPC project assignment discussion",
       "where": "Project assignment",
       "why": "Project won with Cameron's presales contribution",
       "how": "Internal assignment process",
-      "cameron_position": "Contributed to winning the work; should have been assigned to deliver it",
-      "sope_position": "Per discussion with Cameron, agreed for Greg to lead ARPC so Cameron could focus on Achieve, Kimberly Clark, and Derwent",
-      "significance": "Differing accounts of assignment rationale"
+      "significance": "Differing accounts of assignment rationale",
+      "status": "Disputed"
     },
     {
-      "event_id": "E005",
+      "event_id": "E010",
+      "issue_project": "Account Standing / Payment Dispute",
+      "event_type": "account_status",
+      "date": "2025-10",
+      "actor": "Cameron Stewart",
+      "recipient": "SOPE",
+      "what": "Cameron communicates SOPE account not in good standing due to unpaid invoices",
+      "where": "Internal communications",
+      "why": "Multiple unpaid invoices from earlier projects",
+      "how": "Written and verbal communications",
+      "significance": "Establishes financial context for Cameron's conduct; SOPE approved new work despite being in arrears",
+      "status": null
+    },
+    {
+      "event_id": "E011",
+      "issue_project": "Derwent Project",
       "event_type": "project_approval",
       "date": "2025-10-22",
-      "project_name": "Derwent",
-      "who": {
-        "actor": "SOPE",
-        "recipient": "Cameron Stewart"
-      },
+      "actor": "SOPE",
+      "recipient": "Cameron Stewart",
       "what": "0.5 days approved for Derwent project",
       "where": "Project assignment",
       "why": "Project work approval",
       "how": "Formal approval",
-      "cameron_concern": "Represents additional unpaid work; project blocked for two weeks awaiting Ashley Kenny to complete responsibilities"
+      "significance": "Cameron claims represents additional unpaid work; project blocked for two weeks",
+      "status": null
     },
     {
-      "event_id": "E006",
+      "event_id": "E012",
+      "issue_project": "Kimberly-Clark Project / Account Standing",
+      "event_type": "work_approval",
+      "date": "2025-10-23",
+      "actor": "Ashley Kenny",
+      "recipient": "Cameron Stewart",
+      "what": "K-C work approved; availability requested for workshop",
+      "where": "Email communication",
+      "why": "To proceed with K-C delivery phase",
+      "how": "Written approval and availability request",
+      "significance": "SOPE approved new work despite being in arrears; Cameron relied on this approval and remained available",
+      "status": null
+    },
+    {
+      "event_id": "E013",
+      "issue_project": "Kimberly-Clark Project",
       "event_type": "project_assignment",
-      "date": "2025-11",
-      "date_precision": "before 2025-11-14",
-      "project_name": "Kimberly-Clark",
-      "who": {
-        "actor": "SOPE",
-        "recipient": "Cameron Stewart"
-      },
+      "date": "2025-11 (before 11-14)",
+      "actor": "SOPE",
+      "recipient": "Cameron Stewart",
       "what": "Kimberly-Clark project assigned to Cameron",
       "where": "Project assignment",
-      "why": "Cameron contributed to proposal",
+      "why": "Cameron contributed to proposal and presales work",
       "how": "Formal assignment",
-      "details": {
-        "cameron_contribution": "Contributed to proposal",
-        "cameron_background": "Had background knowledge of project"
-      },
-      "status": "Later cancelled (see E008)"
+      "significance": "Later reassigned",
+      "status": "Later reassigned"
     },
     {
-      "event_id": "E007",
+      "event_id": "E014",
+      "issue_project": "Achieve Australia Project",
       "event_type": "project_assignment",
-      "date": "2025-11",
-      "date_precision": "before 2025-11-14",
-      "project_name": "Achieve Australia",
-      "who": {
-        "actor": "SOPE",
-        "recipient": "Cameron Stewart"
-      },
+      "date": "2025-11 (before 11-14)",
+      "actor": "SOPE",
+      "recipient": "Cameron Stewart",
       "what": "Achieve Australia project assignment",
       "where": "Project assignment",
       "why": "Cameron contributed to winning the work",
       "how": "Presales contribution leading to assignment",
-      "cameron_position": "Contributed to winning work; project was cancelled then subsequently delayed"
+      "significance": "Cameron claims project was cancelled then subsequently delayed",
+      "status": null
     },
     {
-      "event_id": "E008",
-      "event_type": "project_cancellation",
-      "date": "2025-11-14",
-      "timestamp": "2025-11-14T07:32:00+11:00",
-      "project_name": "Kimberly-Clark",
-      "who": {
-        "actor": "Trent Allday",
-        "recipient": "Cameron Stewart"
-      },
+      "event_id": "E015",
+      "issue_project": "Kimberly-Clark Project",
+      "event_type": "project_reassignment",
+      "date": "2025-11-14 07:32",
+      "actor": "Trent Allday",
+      "recipient": "Cameron Stewart",
       "what": "Kimberly-Clark project reassigned to another team member",
       "where": "Email communication",
       "why": "Client's time constraints and the urgency to move forward",
       "how": "Email notification",
-      "email_excerpt": "Regarding the Kimberly-Clark project, this one been reassigned to another team member due to the client's time constraints and the urgency to move forward. We understand the difficult time you are facing currently.",
-      "cameron_position": "Project cancelled with more than 12 calendar days available to complete work; had background knowledge and sufficient time",
-      "cameron_response": "Accused SOPE of 'despicable behavior'; noted account not in good standing",
-      "significance": "Cameron had declined other client opportunities to remain available"
+      "significance": "Occurs without prior discussion; only 3 weeks after approval; Cameron had remained available",
+      "status": null
     },
     {
-      "event_id": "E009",
+      "event_id": "E016",
+      "issue_project": "Kimberly-Clark Project / Account Standing",
+      "event_type": "immediate_response",
+      "date": "2025-11-14 (same day)",
+      "actor": "Cameron Stewart",
+      "recipient": "Trent Allday",
+      "what": "Immediate response accusing SOPE of 'despicable behaviour'",
+      "where": "Email reply",
+      "why": "Reaction to project reassignment while account in arrears",
+      "how": "Direct confrontational email",
+      "significance": "Shows immediate reaction not delayed escalation; relationship breakdown now explicit",
+      "status": null
+    },
+    {
+      "event_id": "E017",
+      "issue_project": "Derwent Project",
       "event_type": "project_reassignment",
-      "date": "2025-11-21",
-      "timestamp": "2025-11-21T12:04:00+11:00",
-      "project_name": "Derwent Search",
-      "who": {
-        "actor": "Ashley Kenny",
-        "recipient": "Cameron Stewart",
-        "cc": ["Trent Allday"]
-      },
-      "what": "Derwent Search project reassigned, effective immediately",
+      "date": "2025-11-21 12:04",
+      "actor": "Ashley Kenny",
+      "recipient": "Cameron Stewart",
+      "what": "Derwent Search project reassigned (effective immediately)",
       "where": "Email communication",
-      "why": "Multiple attempts to reach you to align on the engagement and without return communication",
-      "how": "Email notification",
-      "email_content": "I'm writing to let you know that we are re-assigning Derwent Search, effective immediately. We've made multiple attempts to reach you to align on the engagement and without return communication, we cannot effectively collaborate together with Derwent.",
-      "cameron_position": "Project blocked waiting for Ash to complete responsibilities; had been assigned and was ready to proceed",
-      "significance": "Contradicts Cameron's claim of availability and responsiveness"
+      "why": "Multiple attempts to reach you without return communication",
+      "how": "Email notification (CC: Trent Allday)",
+      "significance": "Contradicts Cameron's claim of availability and responsiveness",
+      "status": null
     },
     {
-      "event_id": "E010",
+      "event_id": "E018",
+      "issue_project": "Dispute Escalation",
       "event_type": "breach_notice",
-      "date": "2025-11-21",
-      "timestamp": "2025-11-21T16:43:00+11:00",
-      "who": {
-        "actor": "Cameron Stewart",
-        "recipient": "Trent Allday"
-      },
+      "date": "2025-11-21 16:43",
+      "actor": "Cameron Stewart",
+      "recipient": "Trent Allday",
       "what": "Formal notice of breach of project assignment agreement",
       "where": "Email",
       "why": "Repeated project reassignments despite presales contributions",
       "how": "Written formal notice with response deadline",
-      "key_assertions": [
-        "Agreement from January 2025: 'If we help you win the work, we get to do the work'",
-        "Trent acknowledged this on November 5 and expressed surprise it wasn't being honoured"
-      ],
-      "projects_claimed_as_breaches": [
-        {
-          "name": "ARPC",
-          "claim": "Contributed to winning; not assigned to deliver"
-        },
-        {
-          "name": "Kimberly-Clark",
-          "claim": "Contributed to proposal, assigned, then cancelled with 12+ days available"
-        },
-        {
-          "name": "Achieve Australia",
-          "claim": "Contributed to winning; project cancelled then delayed"
-        },
-        {
-          "name": "Derwent",
-          "claim": "Assigned but progress blocked; 0.5 days on Oct 22 represents unpaid work"
-        }
-      ],
-      "business_impact_claimed": [
-        "Declined other client opportunities when SOPE confirmed work",
-        "Repeated cancellations caused significant financial damage"
-      ],
-      "demands": [
-        "Written confirmation of reinstatement to all cancelled/reassigned projects",
-        "SOPE's commitment to honouring agreement on future engagements",
-        "Response required by COB AEST Tuesday, November 25, 2025"
-      ],
-      "consequences_threatened": [
-        "Invoice for full engagement days across all cancelled/reassigned projects",
-        "Pursue all legal and commercial remedies",
-        "Liability for debt collection fees, legal costs, interest charges",
-        "Claim for loss of opportunity costs and consequential business losses"
-      ]
+      "significance": "Demands reinstatement and threatens legal action; response required by Nov 25",
+      "status": null
     },
     {
-      "event_id": "E011",
+      "event_id": "E019",
+      "issue_project": "Dispute Escalation / Contract Termination",
       "event_type": "formal_response_and_termination",
-      "date": "2025-12-03",
-      "timestamp": "2025-12-03T14:25:00+11:00",
-      "who": {
-        "actor": "Trent Allday",
-        "recipient": "Cameron Stewart"
-      },
+      "date": "2025-12-03 14:25",
+      "actor": "Trent Allday",
+      "recipient": "Cameron Stewart",
       "what": "Comprehensive rejection of breach claims and contract termination notice",
       "where": "Email response",
       "why": "To dispute Cameron's claims and terminate relationship",
       "how": "Detailed written response",
-      "key_points": {
-        "january_2025_agreement": {
-          "position": "No recollection of unconditional commitment",
-          "requirement": "Any verbal arrangement would require written variation per contract",
-          "rejection": "Rejects claim that presales contribution automatically guarantees delivery assignment"
-        },
-        "communication_issues": {
-          "claims": [
-            "Numerous attempts to contact via email, phone, SMS, Microsoft Teams",
-            "Delayed responses, vague replies, or no response at all",
-            "Multiple customer complaints regarding lack of progress and time taken",
-            "Business necessity to reallocate projects to meet client commitments"
-          ]
-        },
-        "specific_projects": {
-          "achieve_kimberly_clark_derwent": "Reassigned due to unavailability or lack of timely response",
-          "arpc": "Not reassigned; agreed with Cameron for Greg to lead so Cameron could focus on other projects"
-        },
-        "contract_terms": [
-          "Project assignments require mutual agreement on availability, timing, deliverables",
-          "Cannot hold projects indefinitely when communication not maintained"
-        ]
-      },
-      "termination_notice": {
-        "pursuant_to": "Termination clause of February 13, 2023 agreement",
-        "notice_period": "One month written notice",
-        "effective_date": "2026-01-02"
-      },
-      "sope_position": [
-        "Rejects characterization as contract breaches",
-        "Disputes demands for reinstatement",
-        "Strongly disputes any claim for damages",
-        "Will respond appropriately to formal legal action"
-      ]
+      "significance": "Termination effective Jan 2 2026; one month notice per contract",
+      "status": null
     },
     {
-      "event_id": "E012",
+      "event_id": "E020",
+      "issue_project": "ARPC Project",
+      "event_type": "equipment_return_request",
+      "date": "2025-11-26 16:39",
+      "actor": "Ashley Kenny",
+      "recipient": "Cameron Stewart",
+      "what": "Request to return ARPC laptop via courier",
+      "where": "Email communication",
+      "why": "ARPC client requesting equipment return",
+      "how": "Email request",
+      "significance": "Evidence of client equipment still in Cameron's possession; timing during dispute escalation",
+      "status": null
+    },
+    {
+      "event_id": "E021",
+      "issue_project": "Dispute Escalation / Payment Claims",
+      "event_type": "invoices_submission",
+      "date": "2025-11-27",
+      "actor": "Cameron Stewart",
+      "recipient": "SOPE",
+      "what": "Four invoices totaling $76835 submitted",
+      "where": "Invoice submission",
+      "why": "To claim 'Loss of Engagement' damages",
+      "how": "Invoice submission",
+      "significance": "SOPE position: Will not be paid; no written agreement; contract is for completed work not opportunity loss",
+      "status": null
+    },
+    {
+      "event_id": "E022",
+      "issue_project": "ARPC Project",
+      "event_type": "equipment_return_followup",
+      "date": "2025-12-05 05:41",
+      "actor": "Ashley Kenny",
+      "recipient": "Cameron Stewart",
+      "what": "Follow-up request to return ARPC laptop with deadline",
+      "where": "Email communication",
+      "why": "No response to initial November 26 request",
+      "how": "Email with explicit deadline (COB Dec 8)",
+      "significance": "Demonstrates continued communication issues during dispute",
+      "status": null
+    },
+    {
+      "event_id": "E023",
+      "issue_project": "Payment Claims / Presales Work",
       "event_type": "invoice_submission",
-      "date": "2025-12-08",
-      "timestamp": "2025-12-08T12:51:00+11:00",
-      "who": {
-        "actor": "Cameron Stewart",
-        "recipient": ["Trent Allday", "SOPE Accounts"]
-      },
-      "what": "Invoice for presales work performed in 2024",
+      "date": "2025-12-08 12:51",
+      "actor": "Cameron Stewart",
+      "recipient": "Trent Allday, SOPE Accounts",
+      "what": "Invoice B-4155 for presales work performed in 2024",
       "where": "Email via Xero",
       "why": "To claim payment for presales activities",
-      "how": "Invoice submission",
-      "invoice_details": {
-        "invoice_number": "B-4155",
-        "amount_aud": 16940.00,
-        "amount_base": 15400.00,
-        "gst_10_percent": 1540.00,
-        "description": "Presales 2024 - Work requested by SOPE Clients and SOPE Sales. Availability, timing and deliverables mutually agreed.",
-        "due_date": "2025-12-22"
-      },
-      "timing": "Submitted 5 days after SOPE's termination notice"
+      "how": "Invoice submission ($16940 AUD)",
+      "significance": "Submitted 5 days after SOPE's termination notice; timing raises questions",
+      "status": null
     },
     {
-      "event_id": "E013",
+      "event_id": "E024",
+      "issue_project": "Payment Claims / Presales Work",
       "event_type": "invoice_rejection",
       "date": "2025-12",
-      "who": {
-        "actor": "Trent Allday",
-        "recipient": "Cameron Stewart"
-      },
+      "actor": "Trent Allday",
+      "recipient": "Cameron Stewart",
       "what": "Rejection of Invoice B-4155",
       "where": "Email response",
       "why": "Disputed work authorization and timing",
       "how": "Written rejection",
-      "rejection_reasons": [
-        "No agreement, quote, or purchase order in place for this work",
-        "SOPE has no knowledge of presales activities or record of work being requested/approved",
-        "Invoicing work from 2024 in December 2025 is unreasonable",
-        "Does not align with contract invoicing terms (requires invoices on first business day of month for prior month's work)",
-        "Work never raised, discussed, or invoiced during 2024 or 2025 until now",
-        "Timing suggests invoice is not legitimate claim but response to earlier disputed correspondence"
-      ],
-      "sope_position": "We reject this invoice in its entirety"
+      "significance": "SOPE: No agreement for work; unreasonable timing; rejects invoice entirely",
+      "status": null
     },
     {
-      "event_id": "E014",
-      "event_type": "invoices_submission",
-      "date": "2025-11-27",
-      "who": {
-        "actor": "Cameron Stewart",
-        "recipient": "SOPE"
-      },
-      "what": "Four invoices totaling $76,835 submitted",
-      "where": "Invoice submission",
-      "why": "To claim 'Loss of Engagement' damages",
-      "how": "Invoice submission",
-      "invoice_details": {
-        "total_amount_aud": 76835.00,
-        "line_item_description": "Loss of Engagement. Project reassigned by SOPE in breach of 'win the work, do the work' agreement, with sufficient calendar days available to complete delivery."
-      },
-      "sope_position": {
-        "will_not_be_paid": true,
-        "reasons": [
-          "No written agreement or purchase order for project assignments",
-          "Contract is for works undertaken and completed, not for claimed loss of opportunity",
-          "The Waffle Co Pty Ltd has been paid in full for all work completed on these projects and for presales efforts",
-          "Reject any claim based on purported verbal arrangement never formalised in writing as required by contract"
-        ]
-      }
-    },
-    {
-      "event_id": "E015",
-      "event_type": "equipment_return_request",
-      "date": "2025-11-26",
-      "follow_up_date": "2025-12-05",
-      "who": {
-        "actor": "Ashley Kenny",
-        "recipient": "Cameron Stewart"
-      },
-      "what": "Request to return ARPC laptop via courier",
-      "where": "Email communication",
-      "why": "ARPC client requesting equipment return",
-      "how": "Email requests with deadline",
-      "initial_request": {
-        "date": "2025-11-26",
-        "timestamp": "2025-11-26T16:39:00+11:00",
-        "content": "ARPC need to organise the collection of their laptop via courier. Could you please confirm when this can be available for collection, and from where?"
-      },
-      "follow_up": {
-        "date": "2025-12-05",
-        "timestamp": "2025-12-05T05:41:00+11:00",
-        "deadline": "COB AEDT Monday, 8th December",
-        "urgency": "Please acknowledge and provide a response to this email before COB AEDT Monday, 8th December"
-      },
-      "significance": "Evidence of client equipment still in Cameron's possession; potential leverage point in dispute"
+      "event_id": "E025",
+      "issue_project": "Kimberly-Clark Project / External Escalation",
+      "event_type": "ethics_complaint",
+      "date": "2025-12 (estimated)",
+      "actor": "Cameron Stewart",
+      "recipient": "Kimberly-Clark Supplier Code of Conduct Helpline",
+      "what": "Formal ethics complaint against SOPE as K-C supplier",
+      "where": "K-C Ethics/Procurement system",
+      "why": "Escalation beyond SOPE dispute to client's ethics process",
+      "how": "Formal helpline submission",
+      "significance": "Major escalation involving K-C's procurement/ethics team; could affect SOPE's relationship with K-C; reframes dispute as supplier ethics issue",
+      "status": null
     }
-  ],
-  "evidence_summary": {
-    "supporting_cameron": [
-      {
-        "category": "Presales Contributions",
-        "evidence": [
-          "Claims contribution to winning multiple projects (ARPC, Kimberly-Clark, Achieve, Derwent)",
-          "Claims verbal agreement from January 2025 guaranteed delivery work"
-        ]
-      },
-      {
-        "category": "Availability Documentation",
-        "evidence": [
-          "Claims 12+ calendar days available for Kimberly-Clark",
-          "Claims sufficient background knowledge to complete work efficiently"
-        ]
-      },
-      {
-        "category": "Financial Impact",
-        "evidence": [
-          "Declined other client opportunities based on SOPE work confirmations",
-          "Multiple project cancellations in 2025 caused business losses"
-        ]
-      },
-      {
-        "category": "November 5 Acknowledgement",
-        "evidence": [
-          "Claims Trent acknowledged the 'win the work, do the work' agreement",
-          "Claims Trent expressed surprise it wasn't being honoured"
-        ]
-      }
-    ],
-    "supporting_sope": [
-      {
-        "category": "Written Contract Terms",
-        "evidence": [
-          "February 13, 2023 contract requires written variations",
-          "No written agreement or purchase orders for disputed projects",
-          "Work requires 'mutual agreement on availability, timing and deliverables'"
-        ]
-      },
-      {
-        "category": "Communication Breakdown",
-        "evidence": [
-          "Multiple documented attempts via email, phone, SMS, Teams",
-          "Claims of delayed responses, vague replies, or no response",
-          "Ashley Kenny's November 21 email: 'multiple attempts to reach you...without return communication'"
-        ]
-      },
-      {
-        "category": "Customer Complaints",
-        "evidence": [
-          "Multiple customer complaints regarding lack of progress",
-          "Time taken to complete deliverables was problematic",
-          "Business necessity to reallocate to meet client commitments"
-        ]
-      },
-      {
-        "category": "Invoice Timing Issues",
-        "evidence": [
-          "Presales invoice submitted December 2025 for 2024 work",
-          "Contract requires monthly invoicing for prior month's work",
-          "Work never discussed or invoiced during 2024 or 2025"
-        ]
-      },
-      {
-        "category": "Project Rationale",
-        "evidence": [
-          "ARPC: Mutually agreed for Greg to lead so Cameron could focus elsewhere",
-          "Kimberly-Clark: Client time constraints and urgency",
-          "Derwent: Lack of communication prevented effective collaboration"
-        ]
-      }
-    ]
-  },
-  "key_questions": {
-    "process": [
-      "What constitutes 'mutual agreement'? Contract requires mutual agreement on assignments; whose burden to document?",
-      "Are verbal variations enforceable? Contract requires written variations; does this bar all oral modifications?",
-      "What documentation exists of communication attempts? SOPE claims numerous attempts; what evidence exists?",
-      "What is 'reasonable response time'? When does delayed response justify reassignment?"
-    ],
-    "legal": [
-      "Is verbal 'win the work, do the work' agreement enforceable? Variation clause requires writing",
-      "Does presales contribution create assignment entitlement? No written agreement suggests no entitlement",
-      "Are 'Loss of Engagement' invoices valid? Contract is for completed work, not opportunity loss",
-      "Does Cameron have claim for damages? Depends on whether enforceable agreement existed",
-      "Was termination properly executed? One month notice appears to comply with contract terms"
-    ],
-    "factual": [
-      "When exactly was January 2025 verbal agreement made? No specific date documented",
-      "What was said on November 5, 2025? Conflicting accounts of acknowledgement",
-      "What communication attempts were made? Need documentation of emails, calls, messages",
-      "What customer complaints were received? SOPE references multiple complaints; what evidence?",
-      "What presales work was performed in 2024? Invoice claims work but no prior documentation"
-    ]
-  },
-  "potential_causes_of_action": [
-    {
-      "claimant": "Cameron",
-      "claim": "Breach of Contract (Verbal Variation)",
-      "basis": "January 2025 verbal 'win the work, do the work' agreement",
-      "evidence": ["Cameron's testimony", "Claimed November 5 acknowledgement"],
-      "challenges": ["Contract requires written variations (Clause 'Variation')"],
-      "likelihood": "Low - written variation requirement likely fatal to claim"
-    },
-    {
-      "claimant": "Cameron",
-      "claim": "Promissory Estoppel",
-      "basis": "Relied on verbal agreement by declining other opportunities",
-      "evidence": ["Claims of declined client work"],
-      "challenges": ["Must prove clear promise, reliance, detriment"],
-      "likelihood": "Low to Moderate - difficult to prove clear promise"
-    },
-    {
-      "claimant": "Cameron",
-      "claim": "Quantum Meruit (Presales Work)",
-      "basis": "Performed presales work in 2024 without compensation",
-      "evidence": ["Invoice B-4155 for $16,940"],
-      "challenges": ["No contemporaneous documentation", "Not invoiced timely"],
-      "likelihood": "Low - significant timing and documentation issues"
-    },
-    {
-      "claimant": "SOPE",
-      "claim": "Proper Termination",
-      "basis": "One month written notice per contract termination clause",
-      "evidence": ["December 3, 2025 termination notice"],
-      "effective_date": "2026-01-02",
-      "likelihood": "High - appears compliant with contract terms"
-    },
-    {
-      "claimant": "SOPE",
-      "claim": "No Enforceable Variation",
-      "basis": "Contract requires written variations",
-      "evidence": ["February 13, 2023 contract Clause 'Variation'"],
-      "defense": "Any verbal agreement unenforceable",
-      "likelihood": "High - strong contractual protection"
-    },
-    {
-      "claimant": "SOPE",
-      "claim": "Breach of Communication Obligations",
-      "basis": "Failure to respond to assignment communications",
-      "evidence": ["Claims of multiple attempts via email, phone, SMS, Teams"],
-      "defense": "Justified reassignment due to communication breakdown",
-      "likelihood": "Moderate - depends on documentation of attempts"
-    },
-    {
-      "claimant": "SOPE",
-      "claim": "Return of Client Property",
-      "basis": "ARPC laptop still in Cameron's possession",
-      "evidence": ["November 26 and December 5, 2025 requests"],
-      "action": "Potential conversion claim if not returned",
-      "likelihood": "High if equipment not returned"
-    }
-  ],
-  "timeline_summary": {
-    "2023": [
-      {"date": "2023-02-13", "event": "Original contractor agreement established"}
-    ],
-    "2025": [
-      {"date": "2025-01", "event": "Alleged verbal 'win the work, do the work' agreement"},
-      {"date": "2025-10-22", "event": "Derwent project 0.5 days approved"},
-      {"date": "2025-11-05", "event": "Discussion about agreement (Cameron claims acknowledgement)"},
-      {"date": "2025-11-14", "event": "Kimberly-Clark project reassigned"},
-      {"date": "2025-11-21", "event": "Derwent Search reassigned"},
-      {"date": "2025-11-21", "event": "Cameron sends formal breach notice (4:43 PM)"},
-      {"date": "2025-11-26", "event": "Initial ARPC laptop return request"},
-      {"date": "2025-11-27", "event": "Cameron submits four invoices totaling $76,835"},
-      {"date": "2025-12-03", "event": "SOPE's comprehensive response and termination notice (2:25 PM)"},
-      {"date": "2025-12-05", "event": "Follow-up ARPC laptop return request with deadline"},
-      {"date": "2025-12-08", "event": "Cameron submits presales invoice B-4155 ($16,940)"},
-      {"date": "2025-12", "event": "SOPE rejects presales invoice"}
-    ],
-    "2026": [
-      {"date": "2026-01-02", "event": "Termination effective date"}
-    ]
-  },
-  "most_damaging_evidence": {
-    "favoring_cameron": [
-      "Claims of November 5 acknowledgement by Trent",
-      "Pattern of presales contribution followed by reassignment",
-      "Business impact from declined opportunities"
-    ],
-    "favoring_sope": [
-      "Written variation requirement in contract",
-      "No written agreements or purchase orders for disputed projects",
-      "Documented communication attempts showing breakdown",
-      "Customer complaints supporting reassignment necessity",
-      "Invoice timing issues (2024 work invoiced December 2025)"
-    ]
-  },
-  "legal_prognosis": "SOPE's position appears significantly stronger due to: (1) Written contract variation requirement; (2) Lack of written project agreements; (3) Communication breakdown documentation; (4) Proper termination notice execution; (5) Cameron's documentation and timing deficiencies. Absent compelling evidence of the verbal agreement and Cameron's responsiveness, SOPE's contractual protections likely defeat Cameron's claims.",
-  "conclusion": "This dispute centers on enforceability of an alleged verbal 'win the work, do the work' agreement made in January 2025. Cameron claims this agreement entitled him to delivery assignments on projects where he contributed to presales work. SOPE denies the agreement and asserts that any such variation would require writing per the February 13, 2023 contract. SOPE's position appears significantly stronger, and likely outcome absent settlement favors SOPE."
+  ]
 }
