@@ -25,12 +25,12 @@ waffle-company-apqc/
 ├── clients/                      # Major client projects (8 projects, 232 docs)
 │   ├── jeerau/                   # 200 docs - 🔥 LARGEST
 │   ├── ipc-health/               # 15 docs - SharePoint service directory
-│   ├── elle-health/              # 0 docs
 │   ├── derwent/                  # 1 doc - Launch PowerApp
 │   ├── derwent-xero-integration/ # 3 docs - Automation
 │   ├── kimberly-clark/           # 5 docs - Supplier justification review
 │   ├── new-age-support/          # 6 docs - QU-0338 Power Automate
-│   └── ufinancial-demo/          # 2 docs - POC PowerShell
+│   ├── ufinancial-demo/          # 2 docs - POC PowerShell
+│   └── yha-phone-report-pbix/    # 0 docs - Power BI report
 ├── legal/                        # Legal & disputes (4 projects, 22 docs)
 │   ├── forge/                    # 0 docs
 │   ├── forge-non-payment/        # 12 docs
@@ -123,20 +123,20 @@ church_data/
 ### Directory Structure:
 ```
 cameronstewart/
-├── personal/                     # Personal projects (5 projects, 0 docs)
+├── personal/                     # Personal projects (6 projects, 0 docs)
 │   ├── 1-sooty-lane/             # 0 docs
 │   ├── health/                   # 0 docs
 │   ├── character-design/         # 0 docs
 │   ├── meeting-recorder/         # 0 docs
-│   └── document-set/             # 0 docs
+│   ├── document-set/             # 0 docs
+│   └── elle-health/              # 0 docs
 ├── government/                   # Government research (2 projects, 0 docs)
 │   ├── au-legislation/           # 0 docs
 │   └── pmhc/                     # 0 docs
-└── tech-research/                # Technology research (4 projects, 4 docs)
+└── tech-research/                # Technology research (3 projects, 4 docs)
     ├── document-driven-design/   # 0 docs
     ├── master-hugo/              # 0 docs
-    ├── www/                      # 4 docs
-    └── yha-phone-report/         # 0 docs - Power BI
+    └── www/                      # 4 docs
 ```
 
 **Total:** 11 projects, 4 documents
@@ -201,7 +201,7 @@ Claude-Insights/
 | `waffle-company-apqc` | 25 | 274 | 🔥 HIGH (includes JEERAU 200 docs) |
 | `Learning-AI` | 18 | 77 | 🔥 HIGH (career + education) |
 | `File-Shares` | 5 | 9 | ⚡ MEDIUM |
-| `cameronstewart` | 11 | 4 | 📋 LOW (mostly empty) |
+| `cameronstewart` | 10 | 4 | 📋 LOW (mostly empty) |
 | `Claude-Insights` | - | - | Analysis hub |
 | Other integrations | 3-5 | varies | Optional |
 

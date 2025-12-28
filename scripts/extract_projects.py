@@ -39,12 +39,12 @@ PROJECT_MAPPING = {
         "projects": [
             "JEERAU",
             "IPC Health",
-            "Elle Health",
             "Derwent",
             "Derwent Xero Integration",
             "Kimberly Clark Global Ethics",
             "QU-0338 - Power Automate Dataverse Consulting Services - New Age Support",
-            "UFinancial Demo"
+            "UFinancial Demo",
+            "YHA - Phone Report PBIX"
         ]
     },
     "legal": {
@@ -126,7 +126,8 @@ PROJECT_MAPPING = {
             "Personal - Health",
             "Character Design",
             "Meeting Recorder",
-            "Document Set"
+            "Document Set",
+            "Elle Health"
         ]
     },
     "government": {
@@ -143,8 +144,7 @@ PROJECT_MAPPING = {
         "projects": [
             "Document Driven Design",
             "Master Hugo",
-            "WWW",
-            "YHA - Phone Report PBIX"
+            "WWW"
         ]
     }
 }
