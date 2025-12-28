@@ -1,0 +1,445 @@
+{
+  "generatedAt": "2025-12-28T14:40:00.059Z",
+  "summary": {
+    "totalConversations": 2613,
+    "totalMessages": 25951,
+    "humanMessages": 13010,
+    "assistantMessages": 12941,
+    "averageMessagesPerConversation": 9.931496364332185,
+    "wordCounts": {
+      "total": 5697136,
+      "human": 1025797,
+      "assistant": 4671339
+    },
+    "dateRange": {
+      "earliest": "2024-07-26T18:28:53.102Z",
+      "latest": "2025-12-28T08:23:54.430Z",
+      "spanDays": 519
+    }
+  },
+  "modelUsage": {
+    "unknown": 12941
+  },
+  "projectAssociation": {
+    "conversationsWithProjects": 0,
+    "uniqueProjects": 0,
+    "conversationsWithoutProjects": 2613
+  },
+  "fileAttachments": {
+    "conversationsWithFiles": 1866,
+    "totalFiles": 2462
+  },
+  "topConversations": [
+    {
+      "name": "Power Automate String Replacement Expression",
+      "uuid": "4ebcd9d2-f233-472c-9a47-4430b42f7aca",
+      "messages": 228,
+      "created": "2025-09-09T08:23:40.288290Z"
+    },
+    {
+      "name": "Power Automate string variable replacement",
+      "uuid": "8423ca5f-4a25-4af9-85c9-c072a78aab81",
+      "messages": 154,
+      "created": "2025-10-01T07:57:37.009064Z"
+    },
+    {
+      "name": "Line Mode Browser: Early Web Technology",
+      "uuid": "eb94edab-1cab-4e0b-a7a4-cdb393f0d832",
+      "messages": 132,
+      "created": "2025-08-10T08:45:51.932243Z"
+    },
+    {
+      "name": "Power BI Waterfall Chart Tutorial",
+      "uuid": "2b4b0ae4-9f56-4256-8d5e-d9a62f7d69d1",
+      "messages": 124,
+      "created": "2025-06-22T02:53:32.662770Z"
+    },
+    {
+      "name": "Power BI Waterfall Chart DAX Table",
+      "uuid": "09aedf8b-91b0-4e75-b353-bea6d1ee3d5b",
+      "messages": 120,
+      "created": "2025-06-22T05:37:01.770550Z"
+    },
+    {
+      "name": "Power Automate SharePoint people webpart debugging",
+      "uuid": "0af29e58-eae3-4c46-879e-f54e5a9c6cbd",
+      "messages": 115,
+      "created": "2025-10-01T13:21:01.245896Z"
+    },
+    {
+      "name": "HTML Tag Replacement Syntax",
+      "uuid": "10c5e5de-c774-4e9e-bccf-0a2d92130d49",
+      "messages": 114,
+      "created": "2025-09-07T11:55:08.428691Z"
+    },
+    {
+      "name": "Salesforce Opportunity History Analysis",
+      "uuid": "bd154dd5-8509-4ac2-9c87-51e9e96de0ae",
+      "messages": 110,
+      "created": "2025-07-16T11:39:47.345648Z"
+    },
+    {
+      "name": "Kimberly-Clark project reassignment and agreement breach - Bullshit",
+      "uuid": "d25ba90d-a03f-49be-a702-6987b49fa721",
+      "messages": 98,
+      "created": "2025-11-17T08:58:39.163949Z"
+    },
+    {
+      "name": "JERAAU Recruitment Contract Dispute",
+      "uuid": "bff03fcc-dee9-4fab-a5a9-125a933808c4",
+      "messages": 96,
+      "created": "2025-06-25T14:30:59.997086Z"
+    },
+    {
+      "name": "Tracking Opportunity Lifecycles and Deal Progression",
+      "uuid": "c7105c2f-acc2-4f45-99bf-e53f1756e5fd",
+      "messages": 92,
+      "created": "2024-09-12T13:44:55.880398Z"
+    },
+    {
+      "name": "Email response and files agreement review",
+      "uuid": "9965cc25-c29b-4a98-83b6-1384e97b48f6",
+      "messages": 86,
+      "created": "2025-12-06T05:29:04.857341Z"
+    },
+    {
+      "name": "Calculating Reportable Opportunities",
+      "uuid": "8494ba9d-6ed5-42e1-8e46-82acfd9dc5db",
+      "messages": 86,
+      "created": "2024-12-06T11:31:50.659556Z"
+    },
+    {
+      "name": "Luxury Rolls Royce Rental Service Website",
+      "uuid": "30dce579-e7fe-472a-b765-435c743575ad",
+      "messages": 83,
+      "created": "2025-05-11T12:43:54.594474Z"
+    },
+    {
+      "name": "Completing your request",
+      "uuid": "4bbb53cf-0c79-49aa-9a13-2d23ebdf5466",
+      "messages": 82,
+      "created": "2024-12-04T09:18:30.209183Z"
+    },
+    {
+      "name": "Power Automate Date Field Extraction",
+      "uuid": "8a7f091d-e1b8-462b-8dd3-e92832710280",
+      "messages": 80,
+      "created": "2025-09-03T09:04:33.020943Z"
+    },
+    {
+      "name": "Digital Gardens: Knowledge Ecosystem",
+      "uuid": "cf9fcb42-bdd9-4cb7-af92-5d9dfc07f83c",
+      "messages": 77,
+      "created": "2025-07-29T15:20:11.513445Z"
+    },
+    {
+      "name": "SharePoint Page Structure Formatting",
+      "uuid": "a81f2090-eb09-4ab4-9a1d-92e5a4eb65b5",
+      "messages": 76,
+      "created": "2025-09-06T02:41:59.721225Z"
+    },
+    {
+      "name": "Claude-Flow: Software to Business Conversion",
+      "uuid": "3e668ad3-30fa-42e3-9949-b601111c6636",
+      "messages": 76,
+      "created": "2025-07-27T14:17:53.070391Z"
+    },
+    {
+      "name": "Power BI Dashboard for Advertising Agency Finances",
+      "uuid": "467cc445-7770-432a-9030-001e32bd7e91",
+      "messages": 75,
+      "created": "2025-04-16T13:18:36.662033Z"
+    },
+    {
+      "name": "Comprehensive Website Ontology",
+      "uuid": "d3aa31b7-c058-46e4-9cc9-5ac24c060cec",
+      "messages": 74,
+      "created": "2025-01-17T20:58:24.880086Z"
+    },
+    {
+      "name": "Information Ontology Types",
+      "uuid": "bb61ceec-aa1f-4332-9012-837eedc2d264",
+      "messages": 73,
+      "created": "2025-08-20T14:20:09.869526Z"
+    },
+    {
+      "name": "APCQ Framework Inquiry",
+      "uuid": "6c51e495-ba76-4ed2-8756-fefe398da353",
+      "messages": 72,
+      "created": "2025-08-08T15:26:38.050127Z"
+    },
+    {
+      "name": "Claude History JSON Website Tool",
+      "uuid": "e2dee349-efbb-40ba-8e79-a3008c8d21f5",
+      "messages": 72,
+      "created": "2025-06-16T14:15:46.424577Z"
+    },
+    {
+      "name": "Calculating Accurate Opportunity Metrics",
+      "uuid": "6fc1928f-42c7-4c5a-a70e-72a1b29c31a5",
+      "messages": 72,
+      "created": "2024-12-11T06:12:58.032743Z"
+    },
+    {
+      "name": "Kimberly Clark supply chain breach analysis",
+      "uuid": "3b58f3d0-51c1-48c1-a765-0e6dfa8c252e",
+      "messages": 69,
+      "created": "2025-12-15T02:39:13.381278Z"
+    },
+    {
+      "name": "Fixing PowerFx Syntax for Checking CRTiming and CREvent",
+      "uuid": "47a017ac-7324-4fcd-9398-b167c2582999",
+      "messages": 68,
+      "created": "2025-01-11T09:11:02.966032Z"
+    },
+    {
+      "name": "Salesforce Power BI Connection Methods",
+      "uuid": "d9ccaa3a-a119-4c8e-902f-e3f957c7d7db",
+      "messages": 66,
+      "created": "2025-06-26T04:06:36.101831Z"
+    },
+    {
+      "name": "Top Static Site Generators Comparison",
+      "uuid": "5ba2bab7-8980-4712-a5e6-43cb60ac46e3",
+      "messages": 62,
+      "created": "2025-07-18T14:32:14.028646Z"
+    },
+    {
+      "name": "Extracting Themes from Archived Emails in SharePoint",
+      "uuid": "45cac66a-5699-4b11-bd30-c3cb8d23e6d5",
+      "messages": 62,
+      "created": "2025-05-29T01:27:01.673450Z"
+    },
+    {
+      "name": "JERAAU Project Cost Dispute",
+      "uuid": "26013395-bb9f-4673-a668-fedaab3cecb4",
+      "messages": 60,
+      "created": "2025-06-04T02:35:58.947618Z"
+    },
+    {
+      "name": "World Wide Web Project HTML",
+      "uuid": "76f757ba-b79d-4a1b-96b6-8c8f58c3aed5",
+      "messages": 58,
+      "created": "2025-08-09T02:34:38.124529Z"
+    },
+    {
+      "name": "Technical Concept to Business Intelligence",
+      "uuid": "5d2ab333-3526-4883-841e-250437f2d6f4",
+      "messages": 58,
+      "created": "2025-06-05T11:48:56.992641Z"
+    },
+    {
+      "name": "PowerBI Dynamic Project Waterfall Categorization",
+      "uuid": "b00d4f40-c455-429f-9174-c0eb530ae5e6",
+      "messages": 56,
+      "created": "2025-07-14T13:14:21.912008Z"
+    },
+    {
+      "name": "Legal document artifact creation",
+      "uuid": "dca40b90-12f3-4ea0-b9e9-f3d312e12fdf",
+      "messages": 54,
+      "created": "2025-09-16T03:29:54.317688Z"
+    },
+    {
+      "name": "Hugo Site Structure Setup",
+      "uuid": "9679e964-f030-4071-bea8-8f55186c12db",
+      "messages": 54,
+      "created": "2025-07-29T23:47:47.748887Z"
+    },
+    {
+      "name": "PowerBI Waterfall Chart Stacking",
+      "uuid": "9402777b-d27e-4894-a7b8-fc647a95303e",
+      "messages": 54,
+      "created": "2025-07-14T11:39:10.251464Z"
+    },
+    {
+      "name": "Service Directory Design Document",
+      "uuid": "b8187895-ccbe-44e3-be1c-351fe59f9e67",
+      "messages": 54,
+      "created": "2025-07-13T11:36:09.674170Z"
+    },
+    {
+      "name": "Extracting Concepts as SQL Pseudocode",
+      "uuid": "1e2267d0-b8ee-4262-ab86-da2ddbf77378",
+      "messages": 54,
+      "created": "2025-06-14T06:09:25.740004Z"
+    },
+    {
+      "name": "JSON Syntax Validation",
+      "uuid": "f46c6039-adf6-4476-9a24-46f893579e94",
+      "messages": 52,
+      "created": "2025-09-13T04:13:44.463347Z"
+    },
+    {
+      "name": "HTML to Text Conversion Service",
+      "uuid": "9b145194-6e73-4305-8b76-895372ce075a",
+      "messages": 52,
+      "created": "2025-09-07T13:57:38.974340Z"
+    },
+    {
+      "name": "World Wide Web Origins",
+      "uuid": "8c9659a7-5e0e-4c1f-bba4-612fd167f944",
+      "messages": 52,
+      "created": "2025-08-09T01:59:44.921617Z"
+    },
+    {
+      "name": "Troubleshooting Script Errors",
+      "uuid": "8dd71287-dc51-4d1b-b983-7a100e944778",
+      "messages": 52,
+      "created": "2024-10-25T13:15:01.718673Z"
+    },
+    {
+      "name": "Hugo Classless CSS Framework",
+      "uuid": "14eccc6c-bb90-49a7-b23a-abf80b41799b",
+      "messages": 50,
+      "created": "2025-08-15T15:29:31.720832Z"
+    },
+    {
+      "name": "API Endpoint Template for SharePoint Site Page",
+      "uuid": "64eb1733-c184-4076-88ad-f13996db1ee4",
+      "messages": 50,
+      "created": "2025-03-19T13:15:48.210870Z"
+    },
+    {
+      "name": "Power Query: Extract Brand and Subband from Headers",
+      "uuid": "2d605781-c407-4813-9098-5efe46bab74f",
+      "messages": 50,
+      "created": "2025-01-01T08:32:31.420417Z"
+    },
+    {
+      "name": "The Ontology of Note-Taking",
+      "uuid": "c95f5b82-8dd4-4659-bb24-615e074b01fe",
+      "messages": 50,
+      "created": "2024-11-04T18:23:42.786887Z"
+    },
+    {
+      "name": "Graffiti Knowledge Graph",
+      "uuid": "a7eda4ee-7da4-4459-907d-c7347e42a850",
+      "messages": 49,
+      "created": "2025-06-20T12:58:37.976992Z"
+    },
+    {
+      "name": "Logic app workflow error",
+      "uuid": "477689e2-97d4-4a4d-94fd-ea74f2286058",
+      "messages": 48,
+      "created": "2025-10-04T11:35:34.496305Z"
+    },
+    {
+      "name": "Remote Meeting Technical Challenges",
+      "uuid": "afc2b7f0-0a2f-4236-af0c-d77d857f7073",
+      "messages": 48,
+      "created": "2025-08-18T07:15:19.965060Z"
+    }
+  ],
+  "topTopics": [
+    [
+      "sharepoint",
+      255
+    ],
+    [
+      "power",
+      176
+    ],
+    [
+      "project",
+      105
+    ],
+    [
+      "content",
+      90
+    ],
+    [
+      "business",
+      89
+    ],
+    [
+      "analysis",
+      73
+    ],
+    [
+      "microsoft",
+      71
+    ],
+    [
+      "management",
+      70
+    ],
+    [
+      "troubleshooting",
+      68
+    ],
+    [
+      "query",
+      64
+    ],
+    [
+      "website",
+      63
+    ],
+    [
+      "document",
+      56
+    ],
+    [
+      "request",
+      54
+    ],
+    [
+      "error",
+      53
+    ],
+    [
+      "process",
+      52
+    ],
+    [
+      "information",
+      51
+    ],
+    [
+      "claude",
+      50
+    ],
+    [
+      "automate",
+      49
+    ],
+    [
+      "workflow",
+      48
+    ],
+    [
+      "design",
+      46
+    ]
+  ],
+  "monthlyActivity": {
+    "2025-12": 264,
+    "2025-11": 69,
+    "2025-10": 133,
+    "2025-09": 157,
+    "2025-08": 286,
+    "2025-07": 226,
+    "2025-06": 237,
+    "2025-05": 91,
+    "2025-04": 95,
+    "2025-03": 70,
+    "2025-02": 99,
+    "2025-01": 158,
+    "2024-12": 155,
+    "2024-11": 216,
+    "2024-10": 112,
+    "2024-09": 160,
+    "2024-08": 78,
+    "2024-07": 7
+  },
+  "lengthDistribution": {
+    "1 message": 10,
+    "2-5 messages": 1183,
+    "6-10 messages": 740,
+    "11-20 messages": 380,
+    "21-50 messages": 257,
+    "51-100 messages": 35,
+    "100+ messages": 8
+  }
+}
