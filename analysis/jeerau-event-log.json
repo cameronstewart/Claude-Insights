@@ -1,0 +1,497 @@
+{
+  "case_summary": {
+    "project_name": "JEERAU",
+    "project_uuid": "0197a61c-0d40-728f-90a2-e5d0e6db9706",
+    "case_type": "Employment Dispute - Job Offer Withdrawal",
+    "created_at": "2025-05-11T12:12:23.197670+00:00",
+    "updated_at": "2025-07-03T07:43:57.635382+00:00",
+    "parties": {
+      "candidate": {
+        "name": "Cameron Stewart",
+        "company": "The Waffle Co Pty Ltd",
+        "email": ["info@cameronstewart.com.au", "cameron.stewart@thewaffle.co"],
+        "role": "Applicant/Contractor"
+      },
+      "recruitment_agency": {
+        "company": "Ignite",
+        "abn": "002724334",
+        "website": "https://www.igniteco.com/",
+        "primary_contact": {
+          "name": "Jemma Rowe",
+          "title": "Account Manager (Information Management)",
+          "email": "Jemma.Rowe@igniteco.com",
+          "mobile": "0433 264 267",
+          "phone": "02 6113 7512",
+          "linkedin": "https://www.linkedin.com/in/jemmarowe/",
+          "office": "Level 12, 224 Bunda St, Canberra ACT 2601"
+        }
+      },
+      "end_client": {
+        "company": "JERA Australia Pty Ltd",
+        "acn": "140 147 048",
+        "parent_company": "JERA Co., Inc. (100% affiliate)",
+        "website": "https://www.jera.co.jp",
+        "industry": "Energy",
+        "contacts": [
+          {
+            "name": "Meluka Bancroft",
+            "title": "Senior Lawyer - Compliance",
+            "email": "Meluka.Bancroft@jeraaustralia.com.au",
+            "mobile": "+61 466 248 772",
+            "office": "Level 36, QV1, 250 St Georges Terrace, Perth WA 6000"
+          },
+          {
+            "name": "Damien Crocker",
+            "email": "Damien.Crocker@jeraaustralia.com.au"
+          }
+        ]
+      }
+    },
+    "position_details": {
+      "title": "Information Management Specialist",
+      "type": "Contract/Temp",
+      "location": "Perth WA (CBD office)",
+      "sector": "Records Management & Document Control",
+      "advertised_duration": "3-6 months (full-time 3mo or part-time 6mo)",
+      "actual_offer_duration": "12-16 days",
+      "application_stats": {
+        "total_candidates": 48,
+        "resume_submission_rate": "100%",
+        "cover_letter_submission_rate": "54%"
+      }
+    }
+  },
+  "events": [
+    {
+      "event_id": "E001",
+      "event_type": "job_application",
+      "date": "2025-04-09",
+      "timestamp": null,
+      "who": {
+        "actor": "Cameron Stewart",
+        "recipient": "Ignite (via SEEK)"
+      },
+      "what": "Applied for Information Management Specialist position",
+      "where": "SEEK job portal (Perth WA location)",
+      "why": "Seeking contract work in information management field",
+      "how": "Online application with CV and cover letter submitted",
+      "supporting_documents": [
+        "Information Management Specialist - CV.pdf",
+        "coverletter.txt"
+      ],
+      "status": "Applied on SEEK",
+      "notes": "Original job advertisement focused on implementation tasks"
+    },
+    {
+      "event_id": "E002",
+      "event_type": "job_readvertisement",
+      "date": "2025-06-24",
+      "timestamp": null,
+      "who": {
+        "actor": "Ignite",
+        "target": "Public job market"
+      },
+      "what": "Same position re-advertised with modified scope",
+      "where": "SEEK job portal",
+      "why": "Scope changed from implementation to review/report focus",
+      "how": "New job posting published",
+      "scope_changes": {
+        "original": [
+          "Standard operating procedure document for information management",
+          "Developing business rules for information management",
+          "Creating naming conventions, access permissions, retention schedule, folder structures and minimum metadata requirements"
+        ],
+        "revised": [
+          "Leading a review into current state of IM policies and processes",
+          "Considering organisation's requirements/business needs",
+          "Drafting report summarising review and recommending ongoing solution",
+          "Creating business rules for information management"
+        ]
+      },
+      "critical_timing": "Posted approximately 2 hours BEFORE withdrawal email sent to Cameron",
+      "status": "Active job posting",
+      "red_flags": ["Timing suggests pre-determined decision", "Scope significantly changed"]
+    },
+    {
+      "event_id": "E003",
+      "event_type": "welcome_email",
+      "date": "2025-06-23",
+      "timestamp": "2025-06-23T08:36:00+08:00",
+      "who": {
+        "actor": "Meluka Bancroft (JERA)",
+        "recipient": "Cameron Stewart",
+        "cc": ["Jemma Rowe", "Damien Crocker"]
+      },
+      "what": "Welcome message confirming start date and logistics",
+      "where": "JERA Australia, Level 36, QV1, 250 St Georges Terrace, Perth WA 6000",
+      "why": "Confirming engagement and providing start instructions",
+      "how": "Email communication",
+      "details": {
+        "start_date": "Tuesday (2025-06-24)",
+        "start_time": "9:00 AM approximately",
+        "instructions": [
+          "Register at reception",
+          "Ask for Meluka Bancroft",
+          "IT access delayed due to parent company system change",
+          "Bring own laptop as backup",
+          "Relevant documents to be emailed to start on project plan"
+        ]
+      },
+      "significance": "Clear confirmation of engagement one day before alleged 'lack of responsiveness'",
+      "status": "Offer confirmed"
+    },
+    {
+      "event_id": "E004",
+      "event_type": "meeting_invitation",
+      "date": "2025-06-23",
+      "timestamp": "2025-06-23T11:24:00+08:00",
+      "who": {
+        "actor": "Jemma Rowe",
+        "recipient": "Cameron Stewart"
+      },
+      "what": "Microsoft Teams meeting invitation for ID verification",
+      "where": "Virtual (Microsoft Teams)",
+      "why": "Complete compliance requirements for contractor onboarding",
+      "how": "Teams meeting link via email",
+      "meeting_details": {
+        "platform": "Microsoft Teams",
+        "meeting_id": "445 138 008 827 2",
+        "passcode": "75AH6Lg9",
+        "purpose": "Sighting ID documents"
+      },
+      "status": "Meeting scheduled"
+    },
+    {
+      "event_id": "E005",
+      "event_type": "id_verification_completed",
+      "date": "2025-06-23",
+      "timestamp": "2025-06-23T11:30:00+08:00",
+      "duration_seconds": 630.43,
+      "who": {
+        "participants": ["Jemma Rowe", "Cameron Stewart"]
+      },
+      "what": "Video call to sight passport for identity verification",
+      "where": "Virtual (Microsoft Teams)",
+      "why": "Biometric system (WorkPro) failed repeatedly; manual verification required",
+      "how": "Teams video call with document shown on camera",
+      "transcript_highlights": [
+        {
+          "speaker": "Jemma Rowe",
+          "quote": "I'm sorry about how, I guess, robust the compliance process is",
+          "timestamp": 195.95
+        },
+        {
+          "speaker": "Jemma Rowe",
+          "quote": "But thank you for working with me to get all of that done. I'm sorry. I know it's been tedious.",
+          "timestamp": 206.76
+        },
+        {
+          "speaker": "Cameron Stewart",
+          "quote": "Yeah, I think it's more. The system fell over. I couldn't like that. Isn't that where we've been stuck a little bit?",
+          "timestamp": 213.56
+        },
+        {
+          "speaker": "Jemma Rowe",
+          "quote": "The workflow system, that's only new, that verification. But yeah, I mean, technology is great until it's not",
+          "timestamp": 222.96
+        }
+      ],
+      "key_discussion_points": [
+        "Jemma apologized for robust compliance process",
+        "System failures acknowledged (WorkPro)",
+        "Cameron requested BOTH contracts (ABN and PAYG options)",
+        "Discussion about tax implications of each contract type"
+      ],
+      "outcome": "Jemma confirmed she would note system that she sighted Cameron's passport",
+      "system_issues": {
+        "system_name": "WorkPro",
+        "issue": "Biometric verification repeatedly failed",
+        "workaround": "Manual video ID verification",
+        "acknowledged_by": "Jemma Rowe"
+      },
+      "status": "ID verification completed successfully"
+    },
+    {
+      "event_id": "E006",
+      "event_type": "document_request",
+      "date": "2025-06-23",
+      "timestamp": "2025-06-23T12:14:00+08:00",
+      "who": {
+        "actor": "Jemma Rowe",
+        "recipient": "Cameron Stewart"
+      },
+      "what": "Request for contractor engagement form and company certificate",
+      "where": "Email communication",
+      "why": "To set up Cameron as ABN contractor",
+      "how": "Email with attached form",
+      "required_documents": [
+        "Contractor engagement form (attached)",
+        "Company certificate for The Waffle Co Pty Ltd"
+      ],
+      "status": "Documents requested"
+    },
+    {
+      "event_id": "E007",
+      "event_type": "phone_call",
+      "date": "2025-06-23",
+      "timestamp": null,
+      "time_of_day": "afternoon",
+      "who": {
+        "participants": ["Jemma Rowe", "Cameron Stewart"]
+      },
+      "what": "Phone call to discuss contract preparation",
+      "where": "Phone",
+      "why": "To clarify next steps for contract preparation",
+      "how": "Phone call initiated by Jemma",
+      "file_note": "Phone call was for 2 actions, 2 contracts would be prepared, one as PAYG and one as ABN",
+      "discussion_points": {
+        "from_transcript": [
+          "Jemma explained ABN contract needs all Cameron's info before drafting company-specific version",
+          "Jemma offered to send draft for review",
+          "Cameron asked what was still missing",
+          "Jemma stated: 'I need the contractor engagement form'",
+          "Cameron responded: 'So that's been submitted, hasn't it?'",
+          "Jemma: 'I sent it through to you, but that was like, in May'"
+        ]
+      },
+      "confusion_identified": "Disagreement about whether engagement form was already submitted",
+      "status": "Awaiting contract preparation"
+    },
+    {
+      "event_id": "E008",
+      "event_type": "extended_discussion",
+      "date": "2025-06-23",
+      "timestamp": null,
+      "who": {
+        "participants": ["Jemma Rowe", "Cameron Stewart"]
+      },
+      "what": "Extended conversation revealing process breakdown and timeline concerns",
+      "where": "Teams call (continuation)",
+      "why": "Cameron trying to understand what's blocking contract issuance",
+      "how": "Video call conversation",
+      "critical_revelations": [
+        {
+          "speaker": "Cameron Stewart",
+          "quote": "So I've started a new thread. There's like 25 messages in the other one and they've all got the backstory.",
+          "significance": "Shows extensive prior communication attempts, contradicting later 'lack of responsiveness' claim"
+        }
+      ],
+      "timeline_pressure": {
+        "start_date": "Tuesday morning (next day)",
+        "contract_status": "Not yet prepared",
+        "cameron_needs": "Time to review tax implications of ABN vs PAYG options"
+      },
+      "status": "Process ongoing, timeline tight"
+    },
+    {
+      "event_id": "E009",
+      "event_type": "offer_withdrawal",
+      "date": "2025-06-24",
+      "timestamp": "2025-06-24T11:22:00+08:00",
+      "who": {
+        "actor": "Jemma Rowe (on behalf of JERA)",
+        "recipient": "Cameron Stewart"
+      },
+      "what": "Email withdrawing job offer",
+      "where": "Email from Jemma.Rowe@igniteco.com",
+      "why": "Alleged 'lack of responsiveness' and 'inability to ensure readiness'",
+      "how": "Formal email notification",
+      "stated_reasons": [
+        "Lack of responsiveness during the pre-engagement process",
+        "Inability to adequately ensure you were ready to commence the assignment when they required"
+      ],
+      "timeline_analysis": {
+        "hours_after_welcome_email": 27,
+        "hours_after_id_verification": 24,
+        "hours_after_job_readvertised": -2,
+        "hours_before_scheduled_start": 22,
+        "context": "After Cameron completed ID verification and was awaiting contracts"
+      },
+      "email_content": "Hi Cameron, I must notify you that our client JERAAU has confirmed they have now withdrawn their offer to engage you for their information management consultant assignment. They have informed me their decision is based on your lack of responsiveness during the pre-engagement process and inability to adequately ensure you were ready to commence the assignment when they required. Accordingly, we confirm we no longer require any of those onboarding documents and information we were waiting on from you and wish you the best in your future endeavours. Kind regards, Jemma",
+      "red_flags": [
+        "Sent after job re-advertised",
+        "One day before scheduled start",
+        "No specific examples of 'lack of responsiveness' provided",
+        "Cameron had completed all requested steps (ID verification)",
+        "Contracts not yet provided to Cameron to sign"
+      ],
+      "status": "Offer withdrawn"
+    },
+    {
+      "event_id": "E010",
+      "event_type": "documentation",
+      "date": "2025-06-25",
+      "timestamp": null,
+      "who": {
+        "actor": "Cameron Stewart"
+      },
+      "what": "File note documenting job re-advertisement timing",
+      "where": "Internal file note",
+      "why": "To document suspicious timing",
+      "how": "Written file note",
+      "content": "Job advertisement reissued prior to receiving this (by approx 2 hours).",
+      "significance": "Suggests offer withdrawal decision was made before notifying Cameron, while he was still actively participating in onboarding process",
+      "status": "Evidence documented"
+    },
+    {
+      "event_id": "E011",
+      "event_type": "draft_response",
+      "date": "2025-06-25",
+      "timestamp": null,
+      "who": {
+        "author": "Cameron Stewart",
+        "intended_recipient": "Meluka Bancroft (JERA)"
+      },
+      "what": "Draft response challenging withdrawal reasons",
+      "where": "Unsent email draft",
+      "why": "Cameron documenting contradictions in withdrawal rationale",
+      "how": "Email draft (not sent)",
+      "key_points": [
+        "Referenced Jemma's statement about withdrawal reasons",
+        "Challenged 'lack of responsiveness' claim",
+        "Referenced extensive email thread (28+ back-and-forths mentioned)",
+        "Described process as 'unprofessional'",
+        "Questioned if expectation was to proceed 'entirely without contract'"
+      ],
+      "quote": "This is so unprofessional, it is not the first time that I have literally run out ways to articulate can you please just move the process on.",
+      "status": "Draft only, not sent"
+    },
+    {
+      "event_id": "E012",
+      "event_type": "complaint_preparation",
+      "date": "2025-06-25",
+      "timestamp": null,
+      "who": {
+        "complainant": "Cameron Stewart",
+        "respondent": "Ignite Recruitment",
+        "regulator": "Australian Competition and Consumer Commission (ACCC)"
+      },
+      "what": "Prepared draft complaint to ACCC",
+      "where": "ACCC online portal (https://portal.accc.gov.au/forms/info-form/business-report/)",
+      "why": "To report misleading job advertisement and privacy breach",
+      "how": "Completed ACCC business complaint template",
+      "complaint_elements": {
+        "business_reported": "Ignite Recruitment",
+        "abn": "002724334",
+        "website": "https://www.igniteco.com/",
+        "nature_of_business": "Recruitment & office services",
+        "primary_issue": "Misleading job advertisement",
+        "details": "Job advertised as 3-6 months contract; actual offer only 12-16 days",
+        "secondary_issue": "Privacy breach - biometric data requirement for contract issuance",
+        "jurisdiction": "Australian Consumer Law, Privacy Act 1988 (Cth)"
+      },
+      "quote": "Having been successful in securing this role when first advertised, the actual offer was for only 12-16 days of work. This is highly misleading and candidates should be protected from this company. Additionally, agency requires biometric data to be able to issue contracts. This is in breach of my privacy.",
+      "status": "Complaint drafted, submission status unknown"
+    }
+  ],
+  "evidence_summary": {
+    "supporting_cameron": [
+      {
+        "category": "Documented Responsiveness",
+        "evidence": [
+          "Applied April 9, 2025",
+          "Responded to welcome email June 23",
+          "Attended ID verification meeting June 23",
+          "Participated in phone calls June 23",
+          "25+ email exchanges documented"
+        ]
+      },
+      {
+        "category": "System Failures Not Candidate Failures",
+        "evidence": [
+          "WorkPro biometric system repeatedly failed (acknowledged by Jemma)",
+          "Required manual video ID verification as workaround",
+          "Jemma acknowledged system was 'only new' and problematic"
+        ]
+      },
+      {
+        "category": "Timeline Contradictions",
+        "evidence": [
+          "Welcome email sent Monday 8:36 AM confirming Tuesday start",
+          "Withdrawal sent Tuesday 11:22 AM",
+          "No reasonable time given to 'ensure readiness' between welcome and withdrawal",
+          "Job re-advertised before withdrawal notification sent"
+        ]
+      },
+      {
+        "category": "Contract Preparation Delays",
+        "evidence": [
+          "No contract provided as of Monday afternoon",
+          "Cameron asked for contracts to review",
+          "Jemma explained ABN contract couldn't be drafted until all info received",
+          "Start scheduled for next morning without signed contract"
+        ]
+      },
+      {
+        "category": "Scope Change Evidence",
+        "evidence": [
+          "Original job: Implementation focus (create SOPs, procedures, etc.)",
+          "Re-advertised job: Review and reporting focus",
+          "Suggests client requirements changed, not candidate suitability"
+        ]
+      }
+    ],
+    "contradictory_evidence": [
+      {
+        "category": "May Communication",
+        "details": "Jemma mentioned sending engagement form 'in May'; suggests earlier communication that may not be fully documented in this project"
+      },
+      {
+        "category": "Document Submission Confusion",
+        "details": "Disagreement about whether engagement form was already submitted; Cameron believed it was submitted; Jemma said it wasn't received"
+      }
+    ]
+  },
+  "key_questions": {
+    "process": [
+      "Why was biometric verification required? Industry standard or Ignite-specific requirement?",
+      "What happened to May submission? If engagement form was sent in May, why wasn't it received/processed?",
+      "Why re-advertise before notifying Cameron? Suggests decision was pre-determined",
+      "How could Cameron be 'ready' without a contract? Impossible to sign non-existent contract"
+    ],
+    "legal": [
+      "Was job advertisement misleading? 3-6 months advertised vs. 12-16 days offered",
+      "Is biometric data requirement lawful? Privacy implications",
+      "Was withdrawal pretextual? Timing and scope change suggest other reasons",
+      "Does Cameron have claim for losses? Declined other opportunities based on this offer"
+    ],
+    "factual": [
+      "When exactly was offer made? Welcome email suggests offer was confirmed",
+      "What specific actions constituted 'lack of responsiveness'? Not detailed in withdrawal",
+      "Who at JERA made withdrawal decision? Jemma says 'client confirmed' but no direct communication shown",
+      "Why 12-16 days vs. 3-6 months? Significant scope reduction unexplained"
+    ]
+  },
+  "potential_causes_of_action": [
+    {
+      "claim": "Misleading and Deceptive Conduct",
+      "basis": "Job advertised as 3-6 months; actual offer 12-16 days",
+      "evidence": ["Job advertisements", "ACCC complaint draft"],
+      "jurisdiction": "Australian Consumer Law",
+      "likelihood": "Moderate to High"
+    },
+    {
+      "claim": "Privacy Breach",
+      "basis": "Biometric data requirement for contract issuance",
+      "evidence": ["Complaint statement", "WorkPro system requirement"],
+      "jurisdiction": "Privacy Act 1988 (Cth)",
+      "likelihood": "Moderate"
+    },
+    {
+      "claim": "Breach of Contract / Promissory Estoppel",
+      "basis": "Welcome email created reasonable expectation of employment",
+      "evidence": ["Welcome email from JERA", "Withdrawal email"],
+      "challenges": ["Contract terms unclear", "May have been pre-contractual"],
+      "likelihood": "Low to Moderate"
+    },
+    {
+      "claim": "Negligent Misrepresentation",
+      "basis": "Recruitment process misrepresented job scope and duration",
+      "evidence": ["Scope changes between advertisements"],
+      "challenges": ["Proving reliance and damages"],
+      "likelihood": "Low"
+    }
+  ],
+  "most_damaging_evidence": "Job re-advertised approximately 2 hours BEFORE withdrawal email sent, while Cameron was still in active onboarding process following successful ID verification",
+  "conclusion": "The event log reveals a pattern inconsistent with Ignite's stated reasons for withdrawal. Cameron demonstrated consistent responsiveness throughout the engagement process. The withdrawal appears attributable to: (1) System failures acknowledged by Jemma; (2) Process delays with contract preparation incomplete; (3) Scope changes suggesting client requirements changed; (4) Timeline impossibility - no reasonable window to demonstrate 'readiness' between welcome Monday AM and withdrawal Tuesday AM. The re-advertisement timing suggests the withdrawal decision was made independent of Cameron's responsiveness."
+}
