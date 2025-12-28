@@ -188,7 +188,30 @@ Meeting minutes: "Adrian Trimmer has prescribed and he has specified that if the
 
 ---
 
-### Event 9: Outside Business Hours Work
+### Event 9: Short Notice Meetings and Unreasonable Hours
+**WHEN**: Throughout July 2025
+**WHO**: Nina Wilson (Forge Project Manager) → The Waffle Co
+**WHAT**: Frequent short notice meeting requests, including meetings outside business hours
+**WHERE**: Project meetings
+**WHY**: Client project management approach
+**HOW**: Meeting requests and scheduling
+
+**Meeting Patterns**:
+- Nina Wilson frequently requested meetings at short notice
+- The Waffle Company attended these meetings despite inconvenience
+- Forge requested meetings outside standard business hours
+- **5am meeting requested** - The Waffle Company sent note-taking delegate
+- Demonstrates client control and contractor exceptional accommodation
+
+**Significance**:
+- Shows The Waffle Company's professional responsiveness
+- Client exercised significant control over contractor schedule
+- Unreasonable meeting times imposed on contractor
+- Contractor accommodated even unreasonable requests professionally
+
+---
+
+### Event 10: Outside Business Hours Work
 **WHEN**: Throughout engagement (including late July 2025)
 **WHO**: The Waffle Co team
 **WHAT**: Working outside normal business hours to meet project timelines
@@ -206,7 +229,7 @@ Meeting minutes: "Adrian Trimmer has prescribed and he has specified that if the
 
 ---
 
-### Event 10: Project Termination by Client
+### Event 11: Project Termination by Client
 **WHEN**: July 28, 2025
 **WHO**: Forge → The Waffle Co
 **WHAT**: Unilateral termination of engagement before project completion
@@ -228,7 +251,7 @@ Meeting minutes: "Adrian Trimmer has prescribed and he has specified that if the
 
 ---
 
-### Event 11: Final Invoice Submission
+### Event 12: Final Invoice Submission
 **WHEN**: After July 28, 2025 (following termination)
 **WHO**: The Waffle Co → Forge
 **WHAT**: Invoice B-412824-7 submitted
@@ -247,10 +270,10 @@ Meeting minutes: "Adrian Trimmer has prescribed and he has specified that if the
 
 ---
 
-### Event 12: Client Dispute of Invoice
+### Event 13: Client Dispute of Invoice - Threatening Behavior
 **WHEN**: August 15, 2025
 **WHO**: Legal Representatives of Forge → The Waffle Co
-**WHAT**: Formal dispute of invoice and rejection of payment
+**WHAT**: Formal dispute of invoice and rejection of payment with threatening behavior
 **WHERE**: Legal correspondence
 **WHY**: Disputing validity and amount of invoice
 **HOW**: Legal letter
@@ -264,9 +287,16 @@ Meeting minutes: "Adrian Trimmer has prescribed and he has specified that if the
 
 **Characterization**: Forge characterized debt as "unfounded"
 
+**Threatening Conduct**:
+- The Waffle Company's September 16 response notes: "Despite our legitimate attempts to resolve these issues professionally, we have instead received another series of threats, seemingly in keeping with the overall culture of Forge"
+- Pattern of unprofessional and threatening behavior from Forge
+- Escalation from payment dispute to intimidation tactics
+
+**Significance**: Demonstrates pattern of unreasonable client behavior extending beyond contractual dispute
+
 ---
 
-### Event 13: Settlement Offer from The Waffle Co
+### Event 14: Settlement Offer from The Waffle Co
 **WHEN**: Between August 15 - September 16, 2025
 **WHO**: The Waffle Co → Forge
 **WHAT**: Settlement offer below full amount
@@ -280,7 +310,7 @@ Meeting minutes: "Adrian Trimmer has prescribed and he has specified that if the
 
 ---
 
-### Event 14: Legal Response from The Waffle Co
+### Event 15: Legal Response from The Waffle Co
 **WHEN**: September 16, 2025
 **WHO**: Cameron Stewart (Director, The Waffle Co) → Legal Representatives of Forge
 **WHAT**: Comprehensive legal response to settlement dispute
@@ -334,7 +364,7 @@ Meeting minutes: "Adrian Trimmer has prescribed and he has specified that if the
 
 ---
 
-### Event 15: Ongoing Dispute
+### Event 16: Ongoing Dispute
 **WHEN**: September 16, 2025 onwards
 **WHO**: The Waffle Co ↔ Forge
 **WHAT**: Continuing dispute over payment
@@ -448,13 +478,14 @@ Meeting minutes: "Adrian Trimmer has prescribed and he has specified that if the
 | 2 | Project Approval | Jun 20, 2025 | Email | Roger Joyce approval to proceed |
 | 3 | Hours Discussion | Jul 7, 2025 | Email | "42.5 hours so far" / "call to talk hours/$" |
 | 4 | FLS Warning | Mid-Jul 2025 | Communication | Warning about data reliability issues |
-| 5 | Data Responsibility Email | Jul 21, 2025 | Email | Adrian: "correctness of data is on us" |
-| 6 | Meeting Transcript/Minutes | Jul 24, 2025 | Meeting | Quality confirmation, T&M confirmation, data responsibility |
-| 7 | Termination Notice | Jul 28, 2025 | Email | "stop working together" / "send remaining invoices" |
-| 8 | Invoice B-412824-7 | After Jul 28, 2025 | Invoice | $10,877.63 for 73.25 hours |
-| 9 | Legal Dispute Letter | Aug 15, 2025 | Legal Letter | Forge's position - debt "unfounded" |
-| 10 | Settlement Offer | Aug-Sep 2025 | Settlement | The Waffle Co commercial concession |
-| 11 | Legal Response | Sep 16, 2025 | Legal Response | Comprehensive response asserting entitlement |
+| 5 | Meeting Schedules | Throughout Jul 2025 | Communications | Short notice meeting requests by Nina Wilson, 5am meeting |
+| 6 | Data Responsibility Email | Jul 21, 2025 | Email | Adrian: "correctness of data is on us" |
+| 7 | Meeting Transcript/Minutes | Jul 24, 2025 | Meeting | Quality confirmation, T&M confirmation, data responsibility |
+| 8 | Termination Notice | Jul 28, 2025 | Email | "stop working together" / "send remaining invoices" |
+| 9 | Invoice B-412824-7 | After Jul 28, 2025 | Invoice | $10,877.63 for 73.25 hours |
+| 10 | Legal Dispute Letter | Aug 15, 2025 | Legal Letter | Forge's position - debt "unfounded", threatening behavior |
+| 11 | Settlement Offer | Aug-Sep 2025 | Settlement | The Waffle Co commercial concession |
+| 12 | Legal Response | Sep 16, 2025 | Legal Response | Comprehensive response asserting entitlement, notes threats |
 
 ---
 
@@ -558,6 +589,12 @@ Meeting minutes: "Adrian Trimmer has prescribed and he has specified that if the
 - FLS field reliability warning issued
 - Client proceeds despite warning
 
+**Throughout July 2025**
+- Nina Wilson requests meetings at short notice
+- Forge requests meetings outside business hours (including 5am meeting)
+- The Waffle Company accommodates all requests
+- Team works 2-3am sessions to meet timelines
+
 **July 21, 2025**
 - Adrian Trimmer email: "correctness of the data is on us"
 
@@ -577,6 +614,7 @@ Meeting minutes: "Adrian Trimmer has prescribed and he has specified that if the
 **August 15, 2025**
 - Forge legal correspondence disputing invoice
 - Characterizes debt as "unfounded"
+- Threatening behavior noted in correspondence
 
 **August-September 2025**
 - The Waffle Co offers settlement (commercial concession)

@@ -248,6 +248,33 @@
     },
     {
       "event_id": "E009",
+      "event_type": "short_notice_meetings_unreasonable_hours",
+      "date": "2025-07",
+      "date_precision": "throughout July 2025",
+      "who": {
+        "actor": "Nina Wilson (Forge Project Manager)",
+        "recipient": "The Waffle Co"
+      },
+      "what": "Frequent short notice meeting requests, including meetings outside business hours",
+      "where": "Project meetings",
+      "why": "Client project management approach",
+      "how": "Meeting requests and scheduling",
+      "meeting_patterns": [
+        "Nina Wilson frequently requested meetings at short notice",
+        "The Waffle Company attended these meetings despite inconvenience",
+        "Forge requested meetings outside standard business hours",
+        "5am meeting requested - The Waffle Company sent note-taking delegate",
+        "Demonstrates client control and contractor exceptional accommodation"
+      ],
+      "significance": [
+        "Shows The Waffle Company's professional responsiveness",
+        "Client exercised significant control over contractor schedule",
+        "Unreasonable meeting times imposed on contractor",
+        "Contractor accommodated even unreasonable requests professionally"
+      ]
+    },
+    {
+      "event_id": "E010",
       "event_type": "outside_hours_work",
       "date": "2025-07",
       "date_precision": "throughout engagement (including late July 2025)",
@@ -266,7 +293,7 @@
       "significance": "The Waffle Company went significantly beyond normal expectations to deliver"
     },
     {
-      "event_id": "E010",
+      "event_id": "E011",
       "event_type": "project_termination",
       "date": "2025-07-28",
       "who": {
@@ -287,7 +314,7 @@
       ]
     },
     {
-      "event_id": "E011",
+      "event_id": "E012",
       "event_type": "final_invoice_submission",
       "date": "2025-07-28",
       "date_precision": "after July 28, 2025 (following termination)",
@@ -310,8 +337,8 @@
       "status": "Submitted per client's request; not paid"
     },
     {
-      "event_id": "E012",
-      "event_type": "client_dispute_of_invoice",
+      "event_id": "E013",
+      "event_type": "client_dispute_of_invoice_threatening_behavior",
       "date": "2025-08-15",
       "who": {
         "actor": "Legal Representatives of Forge",
@@ -328,10 +355,16 @@
         "Alleged data issues (contradicts client's acceptance of data responsibility)",
         "Alleged unfitness for purpose (contradicts premature termination)"
       ],
-      "characterization": "Forge characterized debt as 'unfounded'"
+      "characterization": "Forge characterized debt as 'unfounded'",
+      "threatening_conduct": [
+        "The Waffle Company's September 16 response notes: 'Despite our legitimate attempts to resolve these issues professionally, we have instead received another series of threats, seemingly in keeping with the overall culture of Forge'",
+        "Pattern of unprofessional and threatening behavior from Forge",
+        "Escalation from payment dispute to intimidation tactics"
+      ],
+      "significance": "Demonstrates pattern of unreasonable client behavior extending beyond contractual dispute"
     },
     {
-      "event_id": "E013",
+      "event_id": "E014",
       "event_type": "settlement_offer",
       "date": "2025-08 to 2025-09",
       "date_precision": "between August 15 - September 16, 2025",
@@ -347,7 +380,7 @@
       "status": "Apparently rejected by Forge"
     },
     {
-      "event_id": "E014",
+      "event_id": "E015",
       "event_type": "legal_response",
       "date": "2025-09-16",
       "who": {
@@ -422,7 +455,7 @@
       ]
     },
     {
-      "event_id": "E015",
+      "event_id": "E016",
       "event_type": "ongoing_dispute",
       "date": "2025-09-16",
       "date_precision": "onwards",
