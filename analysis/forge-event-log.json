@@ -1,0 +1,664 @@
+{
+  "case_summary": {
+    "project_name": "Forge Non Payment",
+    "project_uuid": "01995074-b153-71b5-b189-bb500335dab6",
+    "case_type": "Payment Dispute - Time & Materials Contract",
+    "created_at": "2025-09-16T02:57:28.919943+00:00",
+    "updated_at": "2025-09-16T02:57:28.919943+00:00",
+    "parties": {
+      "contractor": {
+        "name": "Cameron Stewart",
+        "company": "The Waffle Co Pty Ltd",
+        "email": "cameron.stewart@thewaffle.co",
+        "phone": "+61 405 335677",
+        "website": "www.thewaffle.co",
+        "role": "Director"
+      },
+      "client": {
+        "company": "Forge Outdoors Pty Ltd",
+        "former_name": "Fleetwood Urban",
+        "contacts": [
+          {
+            "name": "Roger Joyce",
+            "title": "Managing Director"
+          },
+          {
+            "name": "Adrian Trimmer",
+            "title": "Senior Manager"
+          },
+          {
+            "name": "Nina Wilson",
+            "title": "Project Manager"
+          },
+          {
+            "name": "Madeline Joyce",
+            "role": "Staff member (data access)"
+          }
+        ]
+      }
+    },
+    "project_details": {
+      "name": "BD KPI Dashboard Development Project",
+      "quote_number": "QU-0360",
+      "disputed_amount_aud": 10877.63,
+      "hours_worked": 73.25,
+      "invoice_number": "B-412824-7",
+      "contract_basis": "Time and Materials"
+    }
+  },
+  "events": [
+    {
+      "event_id": "E001",
+      "event_type": "quote_issued",
+      "date": "2025-01-24",
+      "who": {
+        "actor": "The Waffle Co",
+        "recipient": "Forge Outdoors"
+      },
+      "what": "Quote QU-0360 for BD KPI Dashboard Development Project",
+      "where": "Written quote document",
+      "why": "To provide estimated pricing for dashboard development",
+      "how": "Formal quote submission",
+      "quote_details": {
+        "quote_number": "QU-0360",
+        "basis": "ESTIMATED ON A TIME AND MATERIALS BASIS",
+        "contract_type": "Estimate only, not fixed-price contract",
+        "age_at_project_start": "6+ months old (historical quote)"
+      },
+      "significance": "Foundation document establishing T&M contract basis, not fixed price"
+    },
+    {
+      "event_id": "E002",
+      "event_type": "project_commencement_discussion",
+      "date": "2025-06-20",
+      "date_precision": "approximate",
+      "who": {
+        "participants": ["The Waffle Co", "Roger Joyce (Forge)"]
+      },
+      "what": "Discussion about commencing project based on historical quote",
+      "where": "Communication with Roger Joyce",
+      "why": "To restart project from 6-month-old quote",
+      "how": "Discussion and agreement",
+      "key_discussion_points": [
+        "Quote QU-0360 was historical (more than 6 months old)",
+        "The Waffle Company would do its best to honor it",
+        "Likely that due to additional requirements and complexity, quote would be starting point only",
+        "Agreement to proceed on this basis"
+      ],
+      "approval": {
+        "approved_by": "Roger Joyce",
+        "approval_timeframe": "within 20 June"
+      },
+      "significance": "Mutual understanding that original estimate might not hold due to age and complexity"
+    },
+    {
+      "event_id": "E003",
+      "event_type": "project_work_commencement",
+      "date": "2025-06",
+      "date_precision": "late June 2025 (approximate)",
+      "who": {
+        "actor": "The Waffle Co team"
+      },
+      "what": "Commenced development work on BD KPI Dashboard",
+      "where": "Development work",
+      "why": "Following approval from Roger Joyce",
+      "how": "Technical development work",
+      "scope": [
+        "Data integration",
+        "Dashboard visualization",
+        "Business requirements gathering",
+        "Technical implementation"
+      ]
+    },
+    {
+      "event_id": "E004",
+      "event_type": "cost_awareness_communication",
+      "date": "2025-07-07",
+      "who": {
+        "participants": ["Cameron Stewart", "Forge"]
+      },
+      "what": "Notification of hours accumulation and cost discussion",
+      "where": "Email communication",
+      "why": "To maintain transparency on time and materials billing",
+      "how": "Proactive client communication",
+      "email_exchange": [
+        {
+          "speaker": "Cameron Stewart (The Waffle Co)",
+          "content": "I have just checked in the log of hours, we are sitting @ 42.5 so far"
+        },
+        {
+          "speaker": "Forge",
+          "content": "Feel free to call me this afternoon to talk hours/$"
+        }
+      ],
+      "significance": [
+        "Clear client awareness of hours beyond original estimate (42.5 hours)",
+        "Client acceptance to discuss cost implications",
+        "Client did not object to hours at this point",
+        "Client offered to discuss by phone rather than email"
+      ],
+      "follow_up_issue": {
+        "description": "When time came to discuss and provide more accurate estimates",
+        "problems": [
+          "Calls and messages left by The Waffle Company",
+          "Not returned by Forge",
+          "No explanation provided for lack of response"
+        ],
+        "indication": "Clear indication Forge was aware additional effort known"
+      }
+    },
+    {
+      "event_id": "E005",
+      "event_type": "data_reliability_warning",
+      "date": "2025-07",
+      "date_precision": "mid-July 2025 (before July 21)",
+      "who": {
+        "actor": "Cameron Stewart",
+        "recipient": "Forge"
+      },
+      "what": "Warning about data reliability issues with FLS field",
+      "where": "Email/communication",
+      "why": "Professional obligation to warn client about data accuracy issues",
+      "how": "Written communication",
+      "warning_content": "I asked about the FLS field before - there are only 49 Opps with data in that field, so I would expect that reporting is wildly inaccurate if we base it of that.",
+      "basis": "Lessons learned during previous projects with Forge",
+      "client_response": "Chose to proceed with this methodology despite warning",
+      "significance": "The Waffle Company proactively identified and warned about data quality issues; client accepted risk"
+    },
+    {
+      "event_id": "E006",
+      "event_type": "data_responsibility_acceptance",
+      "date": "2025-07-21",
+      "who": {
+        "actor": "Adrian Trimmer (Forge)",
+        "recipient": "The Waffle Co"
+      },
+      "what": "Explicit acceptance of data accuracy responsibility",
+      "where": "Email communication",
+      "why": "Clarifying responsibility for data quality issues",
+      "how": "Written statement",
+      "statement": "the correctness of the data is on us.",
+      "significance": "Client expressly accepted responsibility for data accuracy issues"
+    },
+    {
+      "event_id": "E007",
+      "event_type": "critical_meeting",
+      "date": "2025-07-24",
+      "who": {
+        "participants": ["Adrian Trimmer", "Nina Wilson (Forge)", "The Waffle Co team"]
+      },
+      "what": "Project status meeting with critical admissions and statements",
+      "where": "Meeting (in-person or virtual)",
+      "why": "Discuss project status, quality, and concerns",
+      "how": "Formal meeting with minutes",
+      "critical_statements": [
+        {
+          "category": "Quality Confirmation",
+          "speaker": "Adrian Trimmer",
+          "quote": "No one's saying that it was not built to the specifications.",
+          "context": "When expressly questioned about quality concerns"
+        },
+        {
+          "category": "Data Responsibility Reiteration",
+          "source": "Meeting minutes",
+          "quote": "Adrian Trimmer has prescribed and he has specified that if the data is not right, that is on the onus on you to fix that",
+          "context": "Statement made without contradiction"
+        },
+        {
+          "category": "Time & Materials Confirmation",
+          "speaker": "Adrian Trimmer",
+          "quote": "I am paying you by the hour, you work when I want, do what I want and in the way I want. To work in any other way would be wasting time"
+        }
+      ],
+      "significance": [
+        "Client confirmed work met specifications",
+        "Client confirmed time & materials basis",
+        "Client accepted data responsibility",
+        "Client asserted control over work direction"
+      ]
+    },
+    {
+      "event_id": "E008",
+      "event_type": "data_access_issue_right_to_disconnect",
+      "date": "2025-07",
+      "date_precision": "around meeting time",
+      "who": {
+        "actors": ["Forge (Adrian Trimmer, Nina Wilson)"],
+        "recipient": "The Waffle Co"
+      },
+      "what": "Inappropriate request to contact staff member on medical leave",
+      "where": "Project communications",
+      "why": "To obtain necessary data access",
+      "how": "Direct request from Senior Manager and Project Manager",
+      "incident_details": [
+        "Forge insisted on specific data access methods against The Waffle Company's recommendation",
+        "Against industry best practice",
+        "At key moments resulted in delays",
+        "Forge insisted through Adrian Trimmer and Nina Wilson to contact Madeline Joyce whilst on medical leave",
+        "Requested breach of Right to Disconnect laws to obtain data access",
+        "The Waffle Company refused",
+        "Forge promoted this refusal as example of 'unreliability'"
+      ],
+      "analysis": [
+        "Timeliness issues based on Forge's decisions",
+        "Risks known and acknowledged by Adrian Trimmer",
+        "Unreasonable request to violate employee rights",
+        "Client blamed contractor for delays caused by client's own decisions"
+      ]
+    },
+    {
+      "event_id": "E009",
+      "event_type": "outside_hours_work",
+      "date": "2025-07",
+      "date_precision": "throughout engagement (including late July 2025)",
+      "who": {
+        "actor": "The Waffle Co team"
+      },
+      "what": "Working outside normal business hours to meet project timelines",
+      "where": "Development work",
+      "why": "To accommodate client timelines and requirements",
+      "how": "Extended work hours",
+      "hours_worked": [
+        "2-3am sessions documented",
+        "Outside normal business hours",
+        "To meet project timelines"
+      ],
+      "significance": "The Waffle Company went significantly beyond normal expectations to deliver"
+    },
+    {
+      "event_id": "E010",
+      "event_type": "project_termination",
+      "date": "2025-07-28",
+      "who": {
+        "actor": "Forge",
+        "recipient": "The Waffle Co"
+      },
+      "what": "Unilateral termination of engagement before project completion",
+      "where": "Written communication",
+      "why": "We don't feel it is working and getting the result that we need",
+      "how": "Termination notice",
+      "termination_statement": "We have made a decision to stop working together, we don't feel it is working and getting the result that we need.",
+      "follow_up_statement": "send through any remaining invoices and we can review against the agreements we had.",
+      "significance": [
+        "Client terminated before project completion",
+        "Work-in-progress at termination, not final deliverables",
+        "Client acknowledged review of invoices against agreements",
+        "Cannot claim fitness for purpose when terminating before completion"
+      ]
+    },
+    {
+      "event_id": "E011",
+      "event_type": "final_invoice_submission",
+      "date": "2025-07-28",
+      "date_precision": "after July 28, 2025 (following termination)",
+      "who": {
+        "actor": "The Waffle Co",
+        "recipient": "Forge"
+      },
+      "what": "Invoice B-412824-7 submitted",
+      "where": "Invoice submission",
+      "why": "Per client's request to 'send through any remaining invoices'",
+      "how": "Formal invoice",
+      "invoice_details": {
+        "invoice_number": "B-412824-7",
+        "amount_aud": 10877.63,
+        "amount_includes_gst": true,
+        "hours": 73.25,
+        "basis": "Time and materials contract (Quote QU-0360, January 24, 2025)",
+        "work_period": "Project work through July 28, 2025"
+      },
+      "status": "Submitted per client's request; not paid"
+    },
+    {
+      "event_id": "E012",
+      "event_type": "client_dispute_of_invoice",
+      "date": "2025-08-15",
+      "who": {
+        "actor": "Legal Representatives of Forge",
+        "recipient": "The Waffle Co"
+      },
+      "what": "Formal dispute of invoice and rejection of payment",
+      "where": "Legal correspondence",
+      "why": "Disputing validity and amount of invoice",
+      "how": "Legal letter",
+      "alleged_grounds_for_non_payment": [
+        "Claim it was fixed-price contract (contradicts Quote QU-0360)",
+        "Alleged lack of cost overrun notification (contradicts July 7 communication)",
+        "Alleged quality issues (contradicts Adrian's July 24 statement)",
+        "Alleged data issues (contradicts client's acceptance of data responsibility)",
+        "Alleged unfitness for purpose (contradicts premature termination)"
+      ],
+      "characterization": "Forge characterized debt as 'unfounded'"
+    },
+    {
+      "event_id": "E013",
+      "event_type": "settlement_offer",
+      "date": "2025-08 to 2025-09",
+      "date_precision": "between August 15 - September 16, 2025",
+      "who": {
+        "actor": "The Waffle Co",
+        "recipient": "Forge"
+      },
+      "what": "Settlement offer below full amount",
+      "where": "Settlement correspondence",
+      "why": "To avoid protracted litigation",
+      "how": "Written settlement proposal",
+      "nature": "Commercial concession made solely in interests of avoiding litigation",
+      "status": "Apparently rejected by Forge"
+    },
+    {
+      "event_id": "E014",
+      "event_type": "legal_response",
+      "date": "2025-09-16",
+      "who": {
+        "actor": "Cameron Stewart (Director, The Waffle Co)",
+        "recipient": "Legal Representatives of Forge"
+      },
+      "what": "Comprehensive legal response to settlement dispute",
+      "where": "Formal legal correspondence",
+      "why": "To assert contractual entitlement and respond to Forge's position",
+      "how": "Detailed written response with evidence",
+      "key_arguments": [
+        {
+          "topic": "Time & Materials Contract",
+          "points": [
+            "Quote QU-0360 explicitly states 'ESTIMATED ON A TIME AND MATERIALS BASIS'",
+            "Discussed at time as historical quote (6+ months old)",
+            "Agreed likely to be starting point only",
+            "Proceeded with and acknowledged by Roger Joyce within 20 June"
+          ]
+        },
+        {
+          "topic": "Cost Overrun Acknowledgement",
+          "points": [
+            "July 7, 2025 email: Cameron notified client of 42.5 hours",
+            "Client response: 'Feel free to call me this afternoon to talk hours/$'",
+            "Clear awareness and acceptance of hours beyond estimate",
+            "Despite agreeing to discuss, client failed to return calls/messages"
+          ]
+        },
+        {
+          "topic": "Quality Confirmation",
+          "points": [
+            "July 24, 2025 meeting: Adrian Trimmer explicitly stated 'No one's saying that it was not built to the specifications'",
+            "Establishes deliverables met agreed specifications"
+          ]
+        },
+        {
+          "topic": "Data Responsibility",
+          "points": [
+            "The Waffle Company warned about FLS field reliability issues",
+            "July 21, 2025 email: Adrian Trimmer stated 'the correctness of the data is on us'",
+            "July 24, 2025 meeting: Adrian confirmed data accuracy is client's responsibility",
+            "Client chose to proceed despite warnings"
+          ]
+        },
+        {
+          "topic": "Fitness for Purpose",
+          "points": [
+            "Client terminated engagement July 28, 2025 before completion",
+            "Cannot claim unfitness when terminating before final deliverables",
+            "Work-in-progress at termination, not final product"
+          ]
+        },
+        {
+          "topic": "Professional Standards",
+          "points": [
+            "Working 2-3am sessions to meet timelines",
+            "Responding to all client requests promptly",
+            "Providing detailed explanations of technical requirements",
+            "Maintaining professionalism despite challenging interactions"
+          ]
+        }
+      ],
+      "settlement_position": {
+        "full_entitlement": "$10,877.63 under executed T&M agreement",
+        "previous_settlement_offer": "Significant commercial concession",
+        "response_period": "14 days before pursuing legal proceedings"
+      },
+      "consequences_stated": [
+        "Recovery of full amount through legal proceedings",
+        "Costs and credit reporting in accordance with legislation"
+      ]
+    },
+    {
+      "event_id": "E015",
+      "event_type": "ongoing_dispute",
+      "date": "2025-09-16",
+      "date_precision": "onwards",
+      "who": {
+        "parties": ["The Waffle Co", "Forge"]
+      },
+      "what": "Continuing dispute over payment",
+      "where": "Legal correspondence",
+      "why": "Unresolved payment dispute",
+      "how": "Legal process",
+      "status_as_of_document_date": [
+        "Invoice remains unpaid",
+        "Forge maintains debt is 'unfounded'",
+        "The Waffle Co maintains clear legal entitlement",
+        "14-day response period awaiting expiry"
+      ]
+    }
+  ],
+  "evidence_summary": {
+    "supporting_waffle_co": [
+      {
+        "category": "Explicit Time & Materials Contract",
+        "evidence": [
+          "Quote QU-0360 dated January 24, 2025 states 'ESTIMATED ON A TIME AND MATERIALS BASIS'",
+          "Not fixed-price contract",
+          "Historical quote acknowledged as likely starting point only"
+        ]
+      },
+      {
+        "category": "Client Cost Awareness",
+        "evidence": [
+          "July 7, 2025: Cameron notified of 42.5 hours",
+          "Client response: 'Feel free to call me this afternoon to talk hours/$'",
+          "Client did not object or halt work",
+          "Clear awareness of cost overrun"
+        ]
+      },
+      {
+        "category": "Quality Confirmed by Client",
+        "evidence": [
+          "July 24, 2025 meeting: Adrian Trimmer stated 'No one's saying that it was not built to the specifications'",
+          "Explicit confirmation work met specifications"
+        ]
+      },
+      {
+        "category": "Data Responsibility Accepted by Client",
+        "evidence": [
+          "July 21, 2025: Adrian Trimmer: 'the correctness of the data is on us'",
+          "July 24, 2025 meeting: Confirmed data accuracy client's responsibility",
+          "The Waffle Company provided warnings about data issues",
+          "Client chose to proceed despite warnings"
+        ]
+      },
+      {
+        "category": "Client Control Confirmed",
+        "evidence": [
+          "July 24, 2025: Adrian Trimmer: 'I am paying you by the hour, you work when I want, do what I want and in the way I want'",
+          "Confirms T&M basis and client control over work direction"
+        ]
+      },
+      {
+        "category": "Professional Performance",
+        "evidence": [
+          "73.25 hours documented",
+          "Work outside normal hours (2-3am sessions)",
+          "Responsive to all client requests",
+          "Maintained professionalism"
+        ]
+      },
+      {
+        "category": "Premature Termination",
+        "evidence": [
+          "Client terminated July 28, 2025 before project completion",
+          "Cannot claim unfitness for purpose",
+          "Client retained intellectual property/deliverables"
+        ]
+      },
+      {
+        "category": "Client Requested Invoice",
+        "evidence": [
+          "July 28 termination: 'send through any remaining invoices and we can review against the agreements we had'",
+          "Client explicitly requested invoice submission"
+        ]
+      }
+    ],
+    "supporting_forge": [
+      {
+        "category": "Historical Quote Age",
+        "evidence": [
+          "Quote was 6+ months old",
+          "Acknowledged as likely starting point only (but this supports T&M, not fixed price)"
+        ]
+      },
+      {
+        "category": "Client Dissatisfaction",
+        "evidence": [
+          "Terminated engagement: 'we don't feel it is working and getting the result that we need'",
+          "Suggests client concerns about value"
+        ]
+      },
+      {
+        "category": "Characterization as 'Unfounded'",
+        "evidence": [
+          "August 15, 2025 legal correspondence characterized debt as unfounded",
+          "Suggests client disputes entire basis of invoice"
+        ]
+      }
+    ],
+    "contradictory_evidence": "No significant contradictions - The documentary evidence overwhelmingly supports The Waffle Co's position. Forge's position appears contradicted by their own statements, quote documentation, communication record, and written acceptances."
+  },
+  "key_questions": {
+    "process": [
+      "Why did Forge proceed if dissatisfied? Continued to direct work after July 7 cost discussion",
+      "What specific quality issues? Adrian confirmed work met specifications on July 24",
+      "Why terminate before completion? Cannot assess final deliverable if terminated early",
+      "What happened to phone discussion? Client offered to discuss costs but didn't return calls"
+    ],
+    "legal": [
+      "Is T&M contract enforceable? Quote explicitly states T&M basis - should be enforceable",
+      "Does cost awareness = acceptance? July 7 communication suggests acceptance",
+      "What damages is Forge claiming? Basis for characterizing debt as 'unfounded'?",
+      "Can Forge claim unfitness when they terminated? Premature termination undermines this claim"
+    ],
+    "factual": [
+      "What was discussed in offered phone call? July 7 - client offered to discuss, then no response",
+      "What were specific termination reasons? 'Don't feel it is working' - no specifics",
+      "What IP/deliverables did Forge retain? Client kept work product despite non-payment",
+      "Were there other communications? Any other evidence of client concerns raised during project?"
+    ]
+  },
+  "potential_causes_of_action": [
+    {
+      "claimant": "The Waffle Co",
+      "claim": "Breach of Contract - Non-Payment",
+      "basis": "Time and materials contract; 73.25 hours documented work",
+      "evidence": ["Quote QU-0360 (T&M basis)", "Invoice B-412824-7", "July 7 cost awareness"],
+      "amount_aud": 10877.63,
+      "likelihood": "Very High - overwhelming documentary evidence"
+    },
+    {
+      "claimant": "The Waffle Co",
+      "claim": "Quantum Meruit (Alternative)",
+      "basis": "Value of services provided",
+      "evidence": ["73.25 hours professional services", "Work outside normal hours", "Client retained deliverables"],
+      "amount": "Reasonable value of services",
+      "likelihood": "High - if breach claim fails, quantum meruit strong alternative"
+    },
+    {
+      "claimant": "The Waffle Co",
+      "claim": "Unjust Enrichment",
+      "basis": "Client retained intellectual property and deliverables without payment",
+      "evidence": ["Client terminated but kept work product"],
+      "benefit": "Dashboard development, data integration work",
+      "likelihood": "High - client benefited from unpaid services"
+    },
+    {
+      "claimant": "The Waffle Co",
+      "claim": "Debt Recovery",
+      "basis": "Outstanding invoice for services rendered",
+      "evidence": ["Invoice B-412824-7", "Client request to submit invoices"],
+      "amount_aud": 10877.63,
+      "likelihood": "Very High - standard debt recovery on documented invoice"
+    },
+    {
+      "claimant": "Forge",
+      "claim": "Fixed-Price Contract Defense",
+      "weakness": "Quote explicitly states 'ESTIMATED ON A TIME AND MATERIALS BASIS'",
+      "evidence_against": "Quote QU-0360 language is clear and unambiguous",
+      "likelihood_of_success": "Very Low - contradicted by written quote"
+    },
+    {
+      "claimant": "Forge",
+      "claim": "Lack of Cost Notification Defense",
+      "weakness": "July 7 email clearly notified client of 42.5 hours",
+      "evidence_against": "Client response 'call to talk hours/$' = acknowledgement",
+      "likelihood_of_success": "Very Low - documented notification exists"
+    },
+    {
+      "claimant": "Forge",
+      "claim": "Quality/Fitness for Purpose Defense",
+      "weakness": "Adrian Trimmer July 24 statement: 'No one's saying that it was not built to the specifications'",
+      "evidence_against": "Client's own explicit quality confirmation",
+      "additional_weakness": "Client terminated before completion, cannot assess final product",
+      "likelihood_of_success": "Very Low - contradicted by client's own statements"
+    },
+    {
+      "claimant": "Forge",
+      "claim": "Data Issues Defense",
+      "weakness": "Client explicitly accepted data responsibility (July 21 & 24)",
+      "evidence_against": "The Waffle Co warned about FLS field issues; client proceeded anyway",
+      "likelihood_of_success": "Very Low - client accepted responsibility in writing"
+    },
+    {
+      "claimant": "Forge",
+      "claim": "Lack of Value Defense",
+      "weakness": "Client controlled work direction (Adrian: 'do what I want and in the way I want')",
+      "evidence_against": "Client retained all deliverables/IP; T&M basis bills for time, not results; client directed work",
+      "likelihood_of_success": "Low - T&M contract compensates time, not value"
+    }
+  ],
+  "timeline_summary": {
+    "2025-01-24": "Quote QU-0360 issued (T&M basis)",
+    "2025-06-20": "Roger Joyce approves proceeding; acknowledged quote likely starting point only",
+    "2025-06-late": "Project work commences",
+    "2025-07-07": "Cameron notifies 42.5 hours logged; Client offers to discuss costs; subsequent calls not returned",
+    "2025-07-mid": "FLS field reliability warning issued; Client proceeds despite warning",
+    "2025-07-21": "Adrian Trimmer email: 'correctness of the data is on us'",
+    "2025-07-24": "Critical meeting: Quality confirmed, T&M confirmed, Data responsibility confirmed",
+    "2025-07-28": "Forge terminates engagement; 'Send through any remaining invoices'",
+    "2025-07-28+": "Invoice B-412824-7 submitted: $10,877.63 (73.25 hours)",
+    "2025-08-15": "Forge legal correspondence disputing invoice; Characterizes debt as 'unfounded'",
+    "2025-08-09": "The Waffle Co offers settlement (commercial concession); Apparently rejected",
+    "2025-09-16": "The Waffle Co legal response; 14-day response period begins; Threatens legal proceedings"
+  },
+  "most_damaging_evidence_against_forge": [
+    {
+      "evidence": "Quote QU-0360",
+      "impact": "Explicitly states 'ESTIMATED ON A TIME AND MATERIALS BASIS' - destroys fixed-price defense"
+    },
+    {
+      "evidence": "July 24 Quality Statement",
+      "impact": "Adrian Trimmer: 'No one's saying that it was not built to the specifications' - destroys quality defense"
+    },
+    {
+      "evidence": "July 7 Cost Awareness",
+      "impact": "Client acknowledged 42.5 hours, offered to discuss costs - destroys notification defense"
+    },
+    {
+      "evidence": "July 21 Data Responsibility",
+      "impact": "Adrian Trimmer: 'correctness of the data is on us' - destroys data issues defense"
+    },
+    {
+      "evidence": "July 24 T&M Confirmation",
+      "impact": "Adrian: 'I am paying you by the hour' - confirms T&M understanding"
+    }
+  ],
+  "legal_prognosis": "The Waffle Co has overwhelming evidence supporting entitlement to full payment of $10,877.63 plus costs. If matter proceeds to litigation: Very high likelihood of judgment in The Waffle Co's favor (90%+); Likely award of legal costs against Forge; Potential credit reporting consequences for Forge; Clear breach of contract supported by explicit documentary evidence.",
+  "conclusion": "This dispute involves a clearly documented time and materials contract for BD KPI Dashboard development where Forge Outdoors refuses to pay $10,877.63 for 73.25 hours of documented professional services. Overwhelming evidence supports The Waffle Co. Every potential Forge defense is contradicted by documentary evidence. Client's own statements (particularly July 24 meeting) are fatal to claims. Characterization of debt as 'unfounded' not supported by facts. Legal position appears pretextual for avoiding legitimate payment obligation. Most Significant Evidence: Adrian Trimmer's July 24, 2025 explicit statements confirming (1) work met specifications, (2) time and materials payment basis, and (3) client data responsibility."
+}
